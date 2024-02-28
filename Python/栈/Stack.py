@@ -3,7 +3,7 @@ class Stack(object):   #定义栈 属性
     def __init__(self):
          self.items = []
 
-    def is_empty(self):
+    def isEmpty(self):
         """判断是否为空"""
         return self.items == []
 

@@ -46,5 +46,6 @@ def infixtopostfix(infixexpr):
                 opstack.push(token)
         while not opstack.isEmpty():
             postfixlist.append(opstack.pop())
-        return postfixlist
-        
+        return "".join(postfixlist)
+print(infixtopostfix('A*B'))     
+
