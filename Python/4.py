@@ -11,4 +11,11 @@ def func(n):
         memo[n]=func(n//2)+func(n%2)
         return memo[n]
 
-print(func(n))
+
+a=14
+if a>=10:
+    print(a)
+elif a>=7:
+    print(a)
+else:
+    print(a)
