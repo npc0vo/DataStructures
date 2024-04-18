@@ -1,0 +1,21 @@
+# ninja log v5
+0	107	7350689044586294	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.cpp.obj	c701669e566cc207
+108	205	7350689045526291	SingleLinkList.exe	4c97481f27ae8d82
+0	82	7350592866784862	CMakeFiles/111.dir/LinkList/111.cpp.obj	79c6fc837d6ce889
+0	81	7350589887356212	CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj	20d3564309ad9367
+82	161	7350589888124339	HelloWorld.exe	4d92b4aa2f3e014a
+82	165	7350592867567222	111.exe	f009be3c1e02e28f
+1	83	7351259253478808	CMakeFiles/DoubleLinkedList.dir/LinkList/DoubleLinkedList.cpp.obj	ef841e812e8b752e
+1	86	7350682020799779	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.c.obj	9f51549dc36068de
+83	161	7351259254230162	DoubleLinkedList.exe	9d9d3deb16d8467e
+0	106	7351441677921311	build.ninja	68936c95925548ab
+2	91	7351288493658922	CMakeFiles/CircularLinkedList.dir/LinkList/CircularLinkedList.cpp.obj	acfde240b5e7b6e2
+91	184	7351288494546963	CircularLinkedList.exe	68baf8a460fdd05
+0	98	7351437920489287	CMakeFiles/stack.dir/Stack/LinkedStack.cpp.obj	b58f51878cd4ddf5
+98	214	7351437921609492	stack.exe	116d0bf750f799c7
+0	84	7351460962579947	CMakeFiles/sequentialQueue.dir/queue/sequentialQueue.cpp.obj	dfe6b2c57f0ab185
+84	174	7351460963437628	sequentialQueue.exe	68544d5a7485b120
+2	77	7351461086077987	CMakeFiles/sequentialQueue.dir/queue/sequentialQueue.cpp.obj	dfe6b2c57f0ab185
+77	160	7351461086872825	sequentialQueue.exe	68544d5a7485b120
+1	77	7351461242523016	CMakeFiles/sequentialQueue.dir/queue/sequentialQueue.cpp.obj	dfe6b2c57f0ab185
+77	152	7351461243241498	sequentialQueue.exe	68544d5a7485b120
