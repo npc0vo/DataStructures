@@ -28,3 +28,6 @@ add_executable(stack Stack/LinkedStack.cpp Stack/LinkedStack.h
         Stack/ArrayStack.h)
 add_executable(sequentialQueue queue/sequentialQueue.cpp
         queue/sequentialQueue.h)
+add_executable(circularQueue queue/circularQueue.cpp
+        queue/circularQueue.h)
+add_executable(kmp String/kmp.cpp)

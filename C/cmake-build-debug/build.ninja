@@ -502,6 +502,72 @@ build sequentialQueue.exe: CXX_EXECUTABLE_LINKER__sequentialQueue_Debug CMakeFil
   TARGET_IMPLIB = libsequentialQueue.dll.a
   TARGET_PDB = sequentialQueue.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target circularQueue
+
+
+#############################################
+# Order-only phony target for circularQueue
+
+build cmake_object_order_depends_target_circularQueue: phony || CMakeFiles/circularQueue.dir
+
+build CMakeFiles/circularQueue.dir/queue/circularQueue.cpp.obj: CXX_COMPILER__circularQueue_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/queue/circularQueue.cpp || cmake_object_order_depends_target_circularQueue
+  DEP_FILE = CMakeFiles\circularQueue.dir\queue\circularQueue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\circularQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\circularQueue.dir\queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target circularQueue
+
+
+#############################################
+# Link the executable circularQueue.exe
+
+build circularQueue.exe: CXX_EXECUTABLE_LINKER__circularQueue_Debug CMakeFiles/circularQueue.dir/queue/circularQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\circularQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = circularQueue.exe
+  TARGET_IMPLIB = libcircularQueue.dll.a
+  TARGET_PDB = circularQueue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target kmp
+
+
+#############################################
+# Order-only phony target for kmp
+
+build cmake_object_order_depends_target_kmp: phony || CMakeFiles/kmp.dir
+
+build CMakeFiles/kmp.dir/String/kmp.cpp.obj: CXX_COMPILER__kmp_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/String/kmp.cpp || cmake_object_order_depends_target_kmp
+  DEP_FILE = CMakeFiles\kmp.dir\String\kmp.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\kmp.dir
+  OBJECT_FILE_DIR = CMakeFiles\kmp.dir\String
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target kmp
+
+
+#############################################
+# Link the executable kmp.exe
+
+build kmp.exe: CXX_EXECUTABLE_LINKER__kmp_Debug CMakeFiles/kmp.dir/String/kmp.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\kmp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = kmp.exe
+  TARGET_IMPLIB = libkmp.dll.a
+  TARGET_PDB = kmp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -552,6 +618,10 @@ build HelloWorld: phony HelloWorld.exe
 
 build SingleLinkList: phony SingleLinkList.exe
 
+build circularQueue: phony circularQueue.exe
+
+build kmp: phony kmp.exe
+
 build sequentialQueue: phony sequentialQueue.exe
 
 build stack: phony stack.exe
@@ -564,7 +634,7 @@ build stack: phony stack.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe
 
 # =============================================================================
 # Built-in targets

@@ -22,6 +22,7 @@
       <config projectName="C" targetName="stack" />
       <config projectName="C" targetName="3_10" />
       <config projectName="C" targetName="HelloWorld" />
+      <config projectName="C" targetName="circularQueue" />
       <config projectName="C" targetName="5_17" />
       <config projectName="C" targetName="CircularLinkedList" />
       <config projectName="C" targetName="sequentialQueue" />
@@ -34,31 +35,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/CircularLinkedList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/CircularLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/DoubleLinkedList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/DoubleLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/SingleLinkList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkList/SingleLinkList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/ArrayStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/LinkedStack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/LinkedStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1829dc78b7f5c517cf85.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/educoderOJ/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/sequentialQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/sequentialQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/排序/二分查找.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/排序/顺序查找.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/bubbleSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/insertionSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/mergeSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/quickSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/selectionSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/shellSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/查找/sleepSort.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/_myString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/kmp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/circularQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/circularQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1829dc78b7f5c517cf85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a14c30e191d3505a1214.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-18T11-49-27-0824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +96,7 @@
     "CMake 应用程序.DoubleLinkedList.executor": "Run",
     "CMake 应用程序.HelloWorld.executor": "Debug",
     "CMake 应用程序.SingleLinkList.executor": "Run",
+    "CMake 应用程序.circularQueue.executor": "Run",
     "CMake 应用程序.sequentialQueue.executor": "Run",
     "CMake 应用程序.stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -131,7 +124,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.sequentialQueue">
+  <component name="RunManager" selected="CMake 应用程序.kmp">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -202,6 +195,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="circularQueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="circularQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="circularQueue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="kmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="kmp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sequentialQueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="sequentialQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="sequentialQueue">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -229,8 +232,10 @@
       <item itemvalue="CMake 应用程序.C1_3" />
       <item itemvalue="CMake 应用程序.C2_1" />
       <item itemvalue="CMake 应用程序.CircularLinkedList" />
+      <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.DoubleLinkedList" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
+      <item itemvalue="CMake 应用程序.kmp" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.stack" />
@@ -264,7 +269,7 @@
       <workItem from="1713364365354" duration="1084000" />
       <workItem from="1713365565845" duration="1049000" />
       <workItem from="1713414834008" duration="7221000" />
-      <workItem from="1713435395009" duration="7257000" />
+      <workItem from="1713435395009" duration="11513000" />
     </task>
     <servers />
   </component>
