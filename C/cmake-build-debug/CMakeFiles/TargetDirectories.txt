@@ -14,5 +14,7 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/stack.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/sequentialQueue.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/circularQueue.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/kmp.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/vm.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/binaryTree.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

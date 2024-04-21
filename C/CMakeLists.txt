@@ -31,3 +31,8 @@ add_executable(sequentialQueue queue/sequentialQueue.cpp
 add_executable(circularQueue queue/circularQueue.cpp
         queue/circularQueue.h)
 add_executable(kmp String/kmp.cpp)
+
+add_executable(vm vm.cpp
+        vm.h)
+add_executable(binaryTree Tree/binaryTree.cpp
+        Tree/binaryTree.h)

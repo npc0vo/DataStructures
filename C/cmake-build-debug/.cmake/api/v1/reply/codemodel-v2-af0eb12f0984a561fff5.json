@@ -30,7 +30,9 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -60,7 +62,9 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -152,6 +156,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "binaryTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binaryTree-Debug-232bf0ec7fdf5b1a8756.json",
+					"name" : "binaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "circularQueue::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-circularQueue-Debug-0573896ec759b522ce14.json",
 					"name" : "circularQueue",
@@ -176,6 +187,13 @@
 					"id" : "stack::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-stack-Debug-c732fdc9b9b1bf541e3c.json",
 					"name" : "stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vm-Debug-d29c0f695b5863dfe22d.json",
+					"name" : "vm",
 					"projectIndex" : 0
 				}
 			]

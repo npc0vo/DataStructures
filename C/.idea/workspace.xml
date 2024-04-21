@@ -19,11 +19,14 @@
       <config projectName="C" targetName="5_2" />
       <config projectName="C" targetName="DoubleLinkedList" />
       <config projectName="C" targetName="3_9" />
+      <config projectName="C" targetName="kmp" />
       <config projectName="C" targetName="stack" />
       <config projectName="C" targetName="3_10" />
       <config projectName="C" targetName="HelloWorld" />
       <config projectName="C" targetName="circularQueue" />
       <config projectName="C" targetName="5_17" />
+      <config projectName="C" targetName="vm" />
+      <config projectName="C" targetName="binaryTree" />
       <config projectName="C" targetName="CircularLinkedList" />
       <config projectName="C" targetName="sequentialQueue" />
     </generated>
@@ -35,22 +38,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/String/_myString.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/kmp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/circularQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/circularQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/binaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/binaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1829dc78b7f5c517cf85.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a14c30e191d3505a1214.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-18T11-49-27-0824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/kmp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/kmp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0a49c050ee92a9fa73d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-18T14-12-04-0644.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kmp.dir/String/kmp.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kmp.dir/String/kmp.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kmp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kmp.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +101,13 @@
     "CMake 应用程序.DoubleLinkedList.executor": "Run",
     "CMake 应用程序.HelloWorld.executor": "Debug",
     "CMake 应用程序.SingleLinkList.executor": "Run",
+    "CMake 应用程序.binaryTree.executor": "Run",
     "CMake 应用程序.circularQueue.executor": "Run",
+    "CMake 应用程序.kmp.executor": "Run",
     "CMake 应用程序.sequentialQueue.executor": "Run",
     "CMake 应用程序.stack.executor": "Run",
+    "CMake 应用程序.vm.executor": "Run",
+    "CMake 应用程序.vm2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -124,7 +133,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.kmp">
+  <component name="RunManager" selected="CMake 应用程序.binaryTree">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -195,6 +204,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="binaryTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="binaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="binaryTree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="circularQueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="circularQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="circularQueue">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -215,6 +229,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="vm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="vm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="5_2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="5_2.cpp" CONFIG_NAME="5_2.cpp">
       <option name="sourceFile" value="educoderOJ\5_2.cpp" />
       <method v="2">
@@ -227,18 +246,20 @@
       <item itemvalue="CMake 应用程序.3_9" />
       <item itemvalue="CMake 应用程序.5_17" />
       <item itemvalue="CMake 应用程序.5_2" />
+      <item itemvalue="CMake 应用程序.binaryTree" />
       <item itemvalue="CMake 应用程序.C1_1" />
       <item itemvalue="CMake 应用程序.C1_2" />
       <item itemvalue="CMake 应用程序.C1_3" />
       <item itemvalue="CMake 应用程序.C2_1" />
       <item itemvalue="CMake 应用程序.CircularLinkedList" />
-      <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.DoubleLinkedList" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
+      <item itemvalue="CMake 应用程序.SingleLinkList" />
+      <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.kmp" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
-      <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.stack" />
+      <item itemvalue="CMake 应用程序.vm" />
     </list>
     <recent_temporary>
       <list>
@@ -269,7 +290,14 @@
       <workItem from="1713364365354" duration="1084000" />
       <workItem from="1713365565845" duration="1049000" />
       <workItem from="1713414834008" duration="7221000" />
-      <workItem from="1713435395009" duration="11513000" />
+      <workItem from="1713435395009" duration="12574000" />
+      <workItem from="1713683821293" duration="4721000" />
+      <workItem from="1713688570861" duration="26000" />
+      <workItem from="1713688608820" duration="820000" />
+      <workItem from="1713689765344" duration="183000" />
+      <workItem from="1713690545007" duration="53000" />
+      <workItem from="1713690627908" duration="89000" />
+      <workItem from="1713697844102" duration="5012000" />
     </task>
     <servers />
   </component>
@@ -307,6 +335,11 @@
           <url>file://$PROJECT_DIR$/LinkList/SingleLinkList.h</url>
           <line>124</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/vm.h</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

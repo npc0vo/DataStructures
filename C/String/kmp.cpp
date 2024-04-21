@@ -1,6 +1,7 @@
 //
 // Created by Npc on 2024/4/18.
 //
+/*对KMP算法的实现*/
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -40,8 +41,8 @@ int KMP(char T[],char P[]){ //T--主串,P--模式串
 
 int main(){
 
-    char org[] = "ABABABABABD";
-    char str[] = "ABABD";
+    char org[] = "npcIloveu";
+    char str[] = "love";
     int ans = KMP(org,str);
     cout << ans <<endl;
     system("pause");
