@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/
 
 build cmake_object_order_depends_target_5_17: phony || CMakeFiles/5_17.dir
 
-build CMakeFiles/5_17.dir/educoderOJ/5_17.cpp.obj: CXX_COMPILER__5_17_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/5_17.cpp || cmake_object_order_depends_target_5_17
-  DEP_FILE = CMakeFiles\5_17.dir\educoderOJ\5_17.cpp.obj.d
+build CMakeFiles/5_17.dir/educoderOJ/Classproblems/5_17.cpp.obj: CXX_COMPILER__5_17_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Classproblems/5_17.cpp || cmake_object_order_depends_target_5_17
+  DEP_FILE = CMakeFiles\5_17.dir\educoderOJ\Classproblems\5_17.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\5_17.dir
-  OBJECT_FILE_DIR = CMakeFiles\5_17.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\5_17.dir\educoderOJ\Classproblems
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/5_17.dir/educoderOJ/5_17.cpp.obj: CXX_COMPILER__5_17_unscanned_
 #############################################
 # Link the executable 5_17.exe
 
-build 5_17.exe: CXX_EXECUTABLE_LINKER__5_17_Debug CMakeFiles/5_17.dir/educoderOJ/5_17.cpp.obj
+build 5_17.exe: CXX_EXECUTABLE_LINKER__5_17_Debug CMakeFiles/5_17.dir/educoderOJ/Classproblems/5_17.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\5_17.dir
@@ -82,11 +82,11 @@ build 5_17.exe: CXX_EXECUTABLE_LINKER__5_17_Debug CMakeFiles/5_17.dir/educoderOJ
 
 build cmake_object_order_depends_target_3_9: phony || CMakeFiles/3_9.dir
 
-build CMakeFiles/3_9.dir/educoderOJ/3_9.cpp.obj: CXX_COMPILER__3_9_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/3_9.cpp || cmake_object_order_depends_target_3_9
-  DEP_FILE = CMakeFiles\3_9.dir\educoderOJ\3_9.cpp.obj.d
+build CMakeFiles/3_9.dir/educoderOJ/Classproblems/3_9.cpp.obj: CXX_COMPILER__3_9_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Classproblems/3_9.cpp || cmake_object_order_depends_target_3_9
+  DEP_FILE = CMakeFiles\3_9.dir\educoderOJ\Classproblems\3_9.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\3_9.dir
-  OBJECT_FILE_DIR = CMakeFiles\3_9.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\3_9.dir\educoderOJ\Classproblems
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/3_9.dir/educoderOJ/3_9.cpp.obj: CXX_COMPILER__3_9_unscanned_Deb
 #############################################
 # Link the executable 3_9.exe
 
-build 3_9.exe: CXX_EXECUTABLE_LINKER__3_9_Debug CMakeFiles/3_9.dir/educoderOJ/3_9.cpp.obj
+build 3_9.exe: CXX_EXECUTABLE_LINKER__3_9_Debug CMakeFiles/3_9.dir/educoderOJ/Classproblems/3_9.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\3_9.dir
@@ -115,11 +115,11 @@ build 3_9.exe: CXX_EXECUTABLE_LINKER__3_9_Debug CMakeFiles/3_9.dir/educoderOJ/3_
 
 build cmake_object_order_depends_target_5_2: phony || CMakeFiles/5_2.dir
 
-build CMakeFiles/5_2.dir/educoderOJ/5_2.cpp.obj: CXX_COMPILER__5_2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/5_2.cpp || cmake_object_order_depends_target_5_2
-  DEP_FILE = CMakeFiles\5_2.dir\educoderOJ\5_2.cpp.obj.d
+build CMakeFiles/5_2.dir/educoderOJ/Classproblems/5_2.cpp.obj: CXX_COMPILER__5_2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Classproblems/5_2.cpp || cmake_object_order_depends_target_5_2
+  DEP_FILE = CMakeFiles\5_2.dir\educoderOJ\Classproblems\5_2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\5_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\5_2.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\5_2.dir\educoderOJ\Classproblems
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/5_2.dir/educoderOJ/5_2.cpp.obj: CXX_COMPILER__5_2_unscanned_Deb
 #############################################
 # Link the executable 5_2.exe
 
-build 5_2.exe: CXX_EXECUTABLE_LINKER__5_2_Debug CMakeFiles/5_2.dir/educoderOJ/5_2.cpp.obj
+build 5_2.exe: CXX_EXECUTABLE_LINKER__5_2_Debug CMakeFiles/5_2.dir/educoderOJ/Classproblems/5_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\5_2.dir
@@ -148,11 +148,11 @@ build 5_2.exe: CXX_EXECUTABLE_LINKER__5_2_Debug CMakeFiles/5_2.dir/educoderOJ/5_
 
 build cmake_object_order_depends_target_C1_1: phony || CMakeFiles/C1_1.dir
 
-build CMakeFiles/C1_1.dir/educoderOJ/C1_1.cpp.obj: CXX_COMPILER__C1_1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/C1_1.cpp || cmake_object_order_depends_target_C1_1
-  DEP_FILE = CMakeFiles\C1_1.dir\educoderOJ\C1_1.cpp.obj.d
+build CMakeFiles/C1_1.dir/educoderOJ/lab0/C1_1.cpp.obj: CXX_COMPILER__C1_1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/lab0/C1_1.cpp || cmake_object_order_depends_target_C1_1
+  DEP_FILE = CMakeFiles\C1_1.dir\educoderOJ\lab0\C1_1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C1_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\C1_1.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\C1_1.dir\educoderOJ\lab0
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/C1_1.dir/educoderOJ/C1_1.cpp.obj: CXX_COMPILER__C1_1_unscanned_
 #############################################
 # Link the executable C1_1.exe
 
-build C1_1.exe: CXX_EXECUTABLE_LINKER__C1_1_Debug CMakeFiles/C1_1.dir/educoderOJ/C1_1.cpp.obj
+build C1_1.exe: CXX_EXECUTABLE_LINKER__C1_1_Debug CMakeFiles/C1_1.dir/educoderOJ/lab0/C1_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C1_1.dir
@@ -181,11 +181,11 @@ build C1_1.exe: CXX_EXECUTABLE_LINKER__C1_1_Debug CMakeFiles/C1_1.dir/educoderOJ
 
 build cmake_object_order_depends_target_3_10: phony || CMakeFiles/3_10.dir
 
-build CMakeFiles/3_10.dir/educoderOJ/3_10.cpp.obj: CXX_COMPILER__3_10_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/3_10.cpp || cmake_object_order_depends_target_3_10
-  DEP_FILE = CMakeFiles\3_10.dir\educoderOJ\3_10.cpp.obj.d
+build CMakeFiles/3_10.dir/educoderOJ/Classproblems/3_10.cpp.obj: CXX_COMPILER__3_10_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Classproblems/3_10.cpp || cmake_object_order_depends_target_3_10
+  DEP_FILE = CMakeFiles\3_10.dir\educoderOJ\Classproblems\3_10.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\3_10.dir
-  OBJECT_FILE_DIR = CMakeFiles\3_10.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\3_10.dir\educoderOJ\Classproblems
 
 
 # =============================================================================
@@ -195,7 +195,7 @@ build CMakeFiles/3_10.dir/educoderOJ/3_10.cpp.obj: CXX_COMPILER__3_10_unscanned_
 #############################################
 # Link the executable 3_10.exe
 
-build 3_10.exe: CXX_EXECUTABLE_LINKER__3_10_Debug CMakeFiles/3_10.dir/educoderOJ/3_10.cpp.obj
+build 3_10.exe: CXX_EXECUTABLE_LINKER__3_10_Debug CMakeFiles/3_10.dir/educoderOJ/Classproblems/3_10.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\3_10.dir
@@ -214,11 +214,11 @@ build 3_10.exe: CXX_EXECUTABLE_LINKER__3_10_Debug CMakeFiles/3_10.dir/educoderOJ
 
 build cmake_object_order_depends_target_C1_2: phony || CMakeFiles/C1_2.dir
 
-build CMakeFiles/C1_2.dir/educoderOJ/C1_2.cpp.obj: CXX_COMPILER__C1_2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/C1_2.cpp || cmake_object_order_depends_target_C1_2
-  DEP_FILE = CMakeFiles\C1_2.dir\educoderOJ\C1_2.cpp.obj.d
+build CMakeFiles/C1_2.dir/educoderOJ/lab0/C1_2.cpp.obj: CXX_COMPILER__C1_2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/lab0/C1_2.cpp || cmake_object_order_depends_target_C1_2
+  DEP_FILE = CMakeFiles\C1_2.dir\educoderOJ\lab0\C1_2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C1_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\C1_2.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\C1_2.dir\educoderOJ\lab0
 
 
 # =============================================================================
@@ -228,7 +228,7 @@ build CMakeFiles/C1_2.dir/educoderOJ/C1_2.cpp.obj: CXX_COMPILER__C1_2_unscanned_
 #############################################
 # Link the executable C1_2.exe
 
-build C1_2.exe: CXX_EXECUTABLE_LINKER__C1_2_Debug CMakeFiles/C1_2.dir/educoderOJ/C1_2.cpp.obj
+build C1_2.exe: CXX_EXECUTABLE_LINKER__C1_2_Debug CMakeFiles/C1_2.dir/educoderOJ/lab0/C1_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C1_2.dir
@@ -247,11 +247,11 @@ build C1_2.exe: CXX_EXECUTABLE_LINKER__C1_2_Debug CMakeFiles/C1_2.dir/educoderOJ
 
 build cmake_object_order_depends_target_C1_3: phony || CMakeFiles/C1_3.dir
 
-build CMakeFiles/C1_3.dir/educoderOJ/C1_3.cpp.obj: CXX_COMPILER__C1_3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/C1_3.cpp || cmake_object_order_depends_target_C1_3
-  DEP_FILE = CMakeFiles\C1_3.dir\educoderOJ\C1_3.cpp.obj.d
+build CMakeFiles/C1_3.dir/educoderOJ/lab0/C1_3.cpp.obj: CXX_COMPILER__C1_3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/lab0/C1_3.cpp || cmake_object_order_depends_target_C1_3
+  DEP_FILE = CMakeFiles\C1_3.dir\educoderOJ\lab0\C1_3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C1_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\C1_3.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\C1_3.dir\educoderOJ\lab0
 
 
 # =============================================================================
@@ -261,7 +261,7 @@ build CMakeFiles/C1_3.dir/educoderOJ/C1_3.cpp.obj: CXX_COMPILER__C1_3_unscanned_
 #############################################
 # Link the executable C1_3.exe
 
-build C1_3.exe: CXX_EXECUTABLE_LINKER__C1_3_Debug CMakeFiles/C1_3.dir/educoderOJ/C1_3.cpp.obj
+build C1_3.exe: CXX_EXECUTABLE_LINKER__C1_3_Debug CMakeFiles/C1_3.dir/educoderOJ/lab0/C1_3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C1_3.dir
@@ -280,11 +280,11 @@ build C1_3.exe: CXX_EXECUTABLE_LINKER__C1_3_Debug CMakeFiles/C1_3.dir/educoderOJ
 
 build cmake_object_order_depends_target_C2_1: phony || CMakeFiles/C2_1.dir
 
-build CMakeFiles/C2_1.dir/educoderOJ/C2_1.cpp.obj: CXX_COMPILER__C2_1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/C2_1.cpp || cmake_object_order_depends_target_C2_1
-  DEP_FILE = CMakeFiles\C2_1.dir\educoderOJ\C2_1.cpp.obj.d
+build CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj: CXX_COMPILER__C2_1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/C2_1.cpp || cmake_object_order_depends_target_C2_1
+  DEP_FILE = CMakeFiles\C2_1.dir\educoderOJ\Huffman_lab1\C2_1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C2_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\C2_1.dir\educoderOJ
+  OBJECT_FILE_DIR = CMakeFiles\C2_1.dir\educoderOJ\Huffman_lab1
 
 
 # =============================================================================
@@ -294,7 +294,7 @@ build CMakeFiles/C2_1.dir/educoderOJ/C2_1.cpp.obj: CXX_COMPILER__C2_1_unscanned_
 #############################################
 # Link the executable C2_1.exe
 
-build C2_1.exe: CXX_EXECUTABLE_LINKER__C2_1_Debug CMakeFiles/C2_1.dir/educoderOJ/C2_1.cpp.obj
+build C2_1.exe: CXX_EXECUTABLE_LINKER__C2_1_Debug CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C2_1.dir
@@ -634,6 +634,369 @@ build binaryTree.exe: CXX_EXECUTABLE_LINKER__binaryTree_Debug CMakeFiles/binaryT
   TARGET_IMPLIB = libbinaryTree.dll.a
   TARGET_PDB = binaryTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target huffman1
+
+
+#############################################
+# Order-only phony target for huffman1
+
+build cmake_object_order_depends_target_huffman1: phony || CMakeFiles/huffman1.dir
+
+build CMakeFiles/huffman1.dir/educoderOJ/Huffman_lab1/1.cpp.obj: CXX_COMPILER__huffman1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/1.cpp || cmake_object_order_depends_target_huffman1
+  DEP_FILE = CMakeFiles\huffman1.dir\educoderOJ\Huffman_lab1\1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffman1.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffman1.dir\educoderOJ\Huffman_lab1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffman1
+
+
+#############################################
+# Link the executable huffman1.exe
+
+build huffman1.exe: CXX_EXECUTABLE_LINKER__huffman1_Debug CMakeFiles/huffman1.dir/educoderOJ/Huffman_lab1/1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffman1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffman1.exe
+  TARGET_IMPLIB = libhuffman1.dll.a
+  TARGET_PDB = huffman1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huffman2
+
+
+#############################################
+# Order-only phony target for huffman2
+
+build cmake_object_order_depends_target_huffman2: phony || CMakeFiles/huffman2.dir
+
+build CMakeFiles/huffman2.dir/educoderOJ/Huffman_lab1/2.cpp.obj: CXX_COMPILER__huffman2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/2.cpp || cmake_object_order_depends_target_huffman2
+  DEP_FILE = CMakeFiles\huffman2.dir\educoderOJ\Huffman_lab1\2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffman2.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffman2.dir\educoderOJ\Huffman_lab1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffman2
+
+
+#############################################
+# Link the executable huffman2.exe
+
+build huffman2.exe: CXX_EXECUTABLE_LINKER__huffman2_Debug CMakeFiles/huffman2.dir/educoderOJ/Huffman_lab1/2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffman2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffman2.exe
+  TARGET_IMPLIB = libhuffman2.dll.a
+  TARGET_PDB = huffman2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huffman3
+
+
+#############################################
+# Order-only phony target for huffman3
+
+build cmake_object_order_depends_target_huffman3: phony || CMakeFiles/huffman3.dir
+
+build CMakeFiles/huffman3.dir/educoderOJ/Huffman_lab1/3.cpp.obj: CXX_COMPILER__huffman3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/3.cpp || cmake_object_order_depends_target_huffman3
+  DEP_FILE = CMakeFiles\huffman3.dir\educoderOJ\Huffman_lab1\3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffman3.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffman3.dir\educoderOJ\Huffman_lab1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffman3
+
+
+#############################################
+# Link the executable huffman3.exe
+
+build huffman3.exe: CXX_EXECUTABLE_LINKER__huffman3_Debug CMakeFiles/huffman3.dir/educoderOJ/Huffman_lab1/3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffman3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffman3.exe
+  TARGET_IMPLIB = libhuffman3.dll.a
+  TARGET_PDB = huffman3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dfs
+
+
+#############################################
+# Order-only phony target for dfs
+
+build cmake_object_order_depends_target_dfs: phony || CMakeFiles/dfs.dir
+
+build CMakeFiles/dfs.dir/Tree/dfs_tree.cpp.obj: CXX_COMPILER__dfs_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Tree/dfs_tree.cpp || cmake_object_order_depends_target_dfs
+  DEP_FILE = CMakeFiles\dfs.dir\Tree\dfs_tree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dfs.dir
+  OBJECT_FILE_DIR = CMakeFiles\dfs.dir\Tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dfs
+
+
+#############################################
+# Link the executable dfs.exe
+
+build dfs.exe: CXX_EXECUTABLE_LINKER__dfs_Debug CMakeFiles/dfs.dir/Tree/dfs_tree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dfs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dfs.exe
+  TARGET_IMPLIB = libdfs.dll.a
+  TARGET_PDB = dfs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huffmanTree
+
+
+#############################################
+# Order-only phony target for huffmanTree
+
+build cmake_object_order_depends_target_huffmanTree: phony || CMakeFiles/huffmanTree.dir
+
+build CMakeFiles/huffmanTree.dir/Tree/huffmanTree.cpp.obj: CXX_COMPILER__huffmanTree_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Tree/huffmanTree.cpp || cmake_object_order_depends_target_huffmanTree
+  DEP_FILE = CMakeFiles\huffmanTree.dir\Tree\huffmanTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffmanTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffmanTree.dir\Tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffmanTree
+
+
+#############################################
+# Link the executable huffmanTree.exe
+
+build huffmanTree.exe: CXX_EXECUTABLE_LINKER__huffmanTree_Debug CMakeFiles/huffmanTree.dir/Tree/huffmanTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffmanTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffmanTree.exe
+  TARGET_IMPLIB = libhuffmanTree.dll.a
+  TARGET_PDB = huffmanTree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huffmanC2_2
+
+
+#############################################
+# Order-only phony target for huffmanC2_2
+
+build cmake_object_order_depends_target_huffmanC2_2: phony || CMakeFiles/huffmanC2_2.dir
+
+build CMakeFiles/huffmanC2_2.dir/educoderOJ/Huffman_lab1/C2_2.cpp.obj: CXX_COMPILER__huffmanC2_2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/C2_2.cpp || cmake_object_order_depends_target_huffmanC2_2
+  DEP_FILE = CMakeFiles\huffmanC2_2.dir\educoderOJ\Huffman_lab1\C2_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffmanC2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffmanC2_2.dir\educoderOJ\Huffman_lab1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffmanC2_2
+
+
+#############################################
+# Link the executable huffmanC2_2.exe
+
+build huffmanC2_2.exe: CXX_EXECUTABLE_LINKER__huffmanC2_2_Debug CMakeFiles/huffmanC2_2.dir/educoderOJ/Huffman_lab1/C2_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffmanC2_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffmanC2_2.exe
+  TARGET_IMPLIB = libhuffmanC2_2.dll.a
+  TARGET_PDB = huffmanC2_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huffmanC2_3
+
+
+#############################################
+# Order-only phony target for huffmanC2_3
+
+build cmake_object_order_depends_target_huffmanC2_3: phony || CMakeFiles/huffmanC2_3.dir
+
+build CMakeFiles/huffmanC2_3.dir/educoderOJ/Huffman_lab1/C2_3.cpp.obj: CXX_COMPILER__huffmanC2_3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Huffman_lab1/C2_3.cpp || cmake_object_order_depends_target_huffmanC2_3
+  DEP_FILE = CMakeFiles\huffmanC2_3.dir\educoderOJ\Huffman_lab1\C2_3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huffmanC2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\huffmanC2_3.dir\educoderOJ\Huffman_lab1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huffmanC2_3
+
+
+#############################################
+# Link the executable huffmanC2_3.exe
+
+build huffmanC2_3.exe: CXX_EXECUTABLE_LINKER__huffmanC2_3_Debug CMakeFiles/huffmanC2_3.dir/educoderOJ/Huffman_lab1/C2_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huffmanC2_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huffmanC2_3.exe
+  TARGET_IMPLIB = libhuffmanC2_3.dll.a
+  TARGET_PDB = huffmanC2_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Graph1
+
+
+#############################################
+# Order-only phony target for Graph1
+
+build cmake_object_order_depends_target_Graph1: phony || CMakeFiles/Graph1.dir
+
+build CMakeFiles/Graph1.dir/educoderOJ/Graph_lab2/1.cpp.obj: CXX_COMPILER__Graph1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/1.cpp || cmake_object_order_depends_target_Graph1
+  DEP_FILE = CMakeFiles\Graph1.dir\educoderOJ\Graph_lab2\1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Graph1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph1.dir\educoderOJ\Graph_lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph1
+
+
+#############################################
+# Link the executable Graph1.exe
+
+build Graph1.exe: CXX_EXECUTABLE_LINKER__Graph1_Debug CMakeFiles/Graph1.dir/educoderOJ/Graph_lab2/1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Graph1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Graph1.exe
+  TARGET_IMPLIB = libGraph1.dll.a
+  TARGET_PDB = Graph1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Graph2
+
+
+#############################################
+# Order-only phony target for Graph2
+
+build cmake_object_order_depends_target_Graph2: phony || CMakeFiles/Graph2.dir
+
+build CMakeFiles/Graph2.dir/educoderOJ/Graph_lab2/2.cpp.obj: CXX_COMPILER__Graph2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/2.cpp || cmake_object_order_depends_target_Graph2
+  DEP_FILE = CMakeFiles\Graph2.dir\educoderOJ\Graph_lab2\2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Graph2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph2.dir\educoderOJ\Graph_lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph2
+
+
+#############################################
+# Link the executable Graph2.exe
+
+build Graph2.exe: CXX_EXECUTABLE_LINKER__Graph2_Debug CMakeFiles/Graph2.dir/educoderOJ/Graph_lab2/2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Graph2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Graph2.exe
+  TARGET_IMPLIB = libGraph2.dll.a
+  TARGET_PDB = Graph2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Graph3
+
+
+#############################################
+# Order-only phony target for Graph3
+
+build cmake_object_order_depends_target_Graph3: phony || CMakeFiles/Graph3.dir
+
+build CMakeFiles/Graph3.dir/educoderOJ/Graph_lab2/3.cpp.obj: CXX_COMPILER__Graph3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/3.cpp || cmake_object_order_depends_target_Graph3
+  DEP_FILE = CMakeFiles\Graph3.dir\educoderOJ\Graph_lab2\3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Graph3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph3.dir\educoderOJ\Graph_lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph3
+
+
+#############################################
+# Link the executable Graph3.exe
+
+build Graph3.exe: CXX_EXECUTABLE_LINKER__Graph3_Debug CMakeFiles/Graph3.dir/educoderOJ/Graph_lab2/3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Graph3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Graph3.exe
+  TARGET_IMPLIB = libGraph3.dll.a
+  TARGET_PDB = Graph3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target adjacencyMatrix
+
+
+#############################################
+# Order-only phony target for adjacencyMatrix
+
+build cmake_object_order_depends_target_adjacencyMatrix: phony || CMakeFiles/adjacencyMatrix.dir
+
+build CMakeFiles/adjacencyMatrix.dir/Graph/adjacencyMatrix.cpp.obj: CXX_COMPILER__adjacencyMatrix_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/adjacencyMatrix.cpp || cmake_object_order_depends_target_adjacencyMatrix
+  DEP_FILE = CMakeFiles\adjacencyMatrix.dir\Graph\adjacencyMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\adjacencyMatrix.dir
+  OBJECT_FILE_DIR = CMakeFiles\adjacencyMatrix.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target adjacencyMatrix
+
+
+#############################################
+# Link the executable adjacencyMatrix.exe
+
+build adjacencyMatrix.exe: CXX_EXECUTABLE_LINKER__adjacencyMatrix_Debug CMakeFiles/adjacencyMatrix.dir/Graph/adjacencyMatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\adjacencyMatrix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = adjacencyMatrix.exe
+  TARGET_IMPLIB = libadjacencyMatrix.dll.a
+  TARGET_PDB = adjacencyMatrix.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -680,13 +1043,35 @@ build CircularLinkedList: phony CircularLinkedList.exe
 
 build DoubleLinkedList: phony DoubleLinkedList.exe
 
+build Graph1: phony Graph1.exe
+
+build Graph2: phony Graph2.exe
+
+build Graph3: phony Graph3.exe
+
 build HelloWorld: phony HelloWorld.exe
 
 build SingleLinkList: phony SingleLinkList.exe
 
+build adjacencyMatrix: phony adjacencyMatrix.exe
+
 build binaryTree: phony binaryTree.exe
 
 build circularQueue: phony circularQueue.exe
+
+build dfs: phony dfs.exe
+
+build huffman1: phony huffman1.exe
+
+build huffman2: phony huffman2.exe
+
+build huffman3: phony huffman3.exe
+
+build huffmanC2_2: phony huffmanC2_2.exe
+
+build huffmanC2_3: phony huffmanC2_3.exe
+
+build huffmanTree: phony huffmanTree.exe
 
 build kmp: phony kmp.exe
 
@@ -704,7 +1089,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe Graph3.exe adjacencyMatrix.exe
 
 # =============================================================================
 # Built-in targets

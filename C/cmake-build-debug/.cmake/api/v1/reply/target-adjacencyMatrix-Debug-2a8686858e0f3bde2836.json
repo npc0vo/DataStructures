@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "5_17.exe"
+			"path" : "adjacencyMatrix.exe"
 		},
 		{
-			"path" : "5_17.pdb"
+			"path" : "adjacencyMatrix.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 49,
 				"parent" : 0
 			}
 		]
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "5_17::@6890427a1f51a3e7e1df",
+	"id" : "adjacencyMatrix::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "5_17",
-	"nameOnDisk" : "5_17.exe",
+	"name" : "adjacencyMatrix",
+	"nameOnDisk" : "adjacencyMatrix.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "educoderOJ/5_17.cpp",
+			"path" : "Graph/adjacencyMatrix.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

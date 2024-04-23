@@ -97,12 +97,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "educoderOJ/C1_1.cpp",
+			"path" : "educoderOJ/lab0/C1_1.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "educoderOJ/linearList.h",
+			"path" : "educoderOJ/lab0/linearList.h",
 			"sourceGroupIndex" : 1
 		}
 	],

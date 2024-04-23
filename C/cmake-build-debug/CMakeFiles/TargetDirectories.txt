@@ -16,5 +16,16 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/circularQueue.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/kmp.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/vm.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/binaryTree.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffman1.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffman2.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffman3.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/dfs.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffmanTree.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffmanC2_2.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffmanC2_3.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph1.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph2.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph3.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/adjacencyMatrix.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
