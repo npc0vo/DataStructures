@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "adjacencyMatrix.exe"
+			"path" : "graphDFS.exe"
 		},
 		{
-			"path" : "adjacencyMatrix.pdb"
+			"path" : "graphDFS.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 49,
+				"line" : 51,
 				"parent" : 0
 			}
 		]
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "adjacencyMatrix::@6890427a1f51a3e7e1df",
+	"id" : "graphDFS::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "adjacencyMatrix",
-	"nameOnDisk" : "adjacencyMatrix.exe",
+	"name" : "graphDFS",
+	"nameOnDisk" : "graphDFS.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Graph/adjacencyMatrix.cpp",
+			"path" : "Graph/graphDFS.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

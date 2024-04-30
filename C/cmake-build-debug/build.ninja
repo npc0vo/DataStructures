@@ -932,39 +932,6 @@ build Graph2.exe: CXX_EXECUTABLE_LINKER__Graph2_Debug CMakeFiles/Graph2.dir/educ
   TARGET_PDB = Graph2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Graph3
-
-
-#############################################
-# Order-only phony target for Graph3
-
-build cmake_object_order_depends_target_Graph3: phony || CMakeFiles/Graph3.dir
-
-build CMakeFiles/Graph3.dir/educoderOJ/Graph_lab2/3.cpp.obj: CXX_COMPILER__Graph3_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/3.cpp || cmake_object_order_depends_target_Graph3
-  DEP_FILE = CMakeFiles\Graph3.dir\educoderOJ\Graph_lab2\3.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Graph3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Graph3.dir\educoderOJ\Graph_lab2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Graph3
-
-
-#############################################
-# Link the executable Graph3.exe
-
-build Graph3.exe: CXX_EXECUTABLE_LINKER__Graph3_Debug CMakeFiles/Graph3.dir/educoderOJ/Graph_lab2/3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Graph3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Graph3.exe
-  TARGET_IMPLIB = libGraph3.dll.a
-  TARGET_PDB = Graph3.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target adjacencyMatrix
 
 
@@ -996,6 +963,237 @@ build adjacencyMatrix.exe: CXX_EXECUTABLE_LINKER__adjacencyMatrix_Debug CMakeFil
   TARGET_FILE = adjacencyMatrix.exe
   TARGET_IMPLIB = libadjacencyMatrix.dll.a
   TARGET_PDB = adjacencyMatrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AdjacencyList
+
+
+#############################################
+# Order-only phony target for AdjacencyList
+
+build cmake_object_order_depends_target_AdjacencyList: phony || CMakeFiles/AdjacencyList.dir
+
+build CMakeFiles/AdjacencyList.dir/Graph/AdjacencyList.cpp.obj: CXX_COMPILER__AdjacencyList_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/AdjacencyList.cpp || cmake_object_order_depends_target_AdjacencyList
+  DEP_FILE = CMakeFiles\AdjacencyList.dir\Graph\AdjacencyList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AdjacencyList.dir
+  OBJECT_FILE_DIR = CMakeFiles\AdjacencyList.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AdjacencyList
+
+
+#############################################
+# Link the executable AdjacencyList.exe
+
+build AdjacencyList.exe: CXX_EXECUTABLE_LINKER__AdjacencyList_Debug CMakeFiles/AdjacencyList.dir/Graph/AdjacencyList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AdjacencyList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdjacencyList.exe
+  TARGET_IMPLIB = libAdjacencyList.dll.a
+  TARGET_PDB = AdjacencyList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Chainforwardstar
+
+
+#############################################
+# Order-only phony target for Chainforwardstar
+
+build cmake_object_order_depends_target_Chainforwardstar: phony || CMakeFiles/Chainforwardstar.dir
+
+build CMakeFiles/Chainforwardstar.dir/Graph/Chainforwardstar.cpp.obj: CXX_COMPILER__Chainforwardstar_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/Chainforwardstar.cpp || cmake_object_order_depends_target_Chainforwardstar
+  DEP_FILE = CMakeFiles\Chainforwardstar.dir\Graph\Chainforwardstar.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Chainforwardstar.dir
+  OBJECT_FILE_DIR = CMakeFiles\Chainforwardstar.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chainforwardstar
+
+
+#############################################
+# Link the executable Chainforwardstar.exe
+
+build Chainforwardstar.exe: CXX_EXECUTABLE_LINKER__Chainforwardstar_Debug CMakeFiles/Chainforwardstar.dir/Graph/Chainforwardstar.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Chainforwardstar.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Chainforwardstar.exe
+  TARGET_IMPLIB = libChainforwardstar.dll.a
+  TARGET_PDB = Chainforwardstar.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target graphDFS
+
+
+#############################################
+# Order-only phony target for graphDFS
+
+build cmake_object_order_depends_target_graphDFS: phony || CMakeFiles/graphDFS.dir
+
+build CMakeFiles/graphDFS.dir/Graph/graphDFS.cpp.obj: CXX_COMPILER__graphDFS_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/graphDFS.cpp || cmake_object_order_depends_target_graphDFS
+  DEP_FILE = CMakeFiles\graphDFS.dir\Graph\graphDFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graphDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\graphDFS.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target graphDFS
+
+
+#############################################
+# Link the executable graphDFS.exe
+
+build graphDFS.exe: CXX_EXECUTABLE_LINKER__graphDFS_Debug CMakeFiles/graphDFS.dir/Graph/graphDFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\graphDFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = graphDFS.exe
+  TARGET_IMPLIB = libgraphDFS.dll.a
+  TARGET_PDB = graphDFS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target graphBFS
+
+
+#############################################
+# Order-only phony target for graphBFS
+
+build cmake_object_order_depends_target_graphBFS: phony || CMakeFiles/graphBFS.dir
+
+build CMakeFiles/graphBFS.dir/Graph/graphBFS.cpp.obj: CXX_COMPILER__graphBFS_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/graphBFS.cpp || cmake_object_order_depends_target_graphBFS
+  DEP_FILE = CMakeFiles\graphBFS.dir\Graph\graphBFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\graphBFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\graphBFS.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target graphBFS
+
+
+#############################################
+# Link the executable graphBFS.exe
+
+build graphBFS.exe: CXX_EXECUTABLE_LINKER__graphBFS_Debug CMakeFiles/graphBFS.dir/Graph/graphBFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\graphBFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = graphBFS.exe
+  TARGET_IMPLIB = libgraphBFS.dll.a
+  TARGET_PDB = graphBFS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Prim
+
+
+#############################################
+# Order-only phony target for Prim
+
+build cmake_object_order_depends_target_Prim: phony || CMakeFiles/Prim.dir
+
+build CMakeFiles/Prim.dir/Graph/Prim.cpp.obj: CXX_COMPILER__Prim_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/Prim.cpp || cmake_object_order_depends_target_Prim
+  DEP_FILE = CMakeFiles\Prim.dir\Graph\Prim.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Prim.dir
+  OBJECT_FILE_DIR = CMakeFiles\Prim.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Prim
+
+
+#############################################
+# Link the executable Prim.exe
+
+build Prim.exe: CXX_EXECUTABLE_LINKER__Prim_Debug CMakeFiles/Prim.dir/Graph/Prim.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Prim.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Prim.exe
+  TARGET_IMPLIB = libPrim.dll.a
+  TARGET_PDB = Prim.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Kruskal
+
+
+#############################################
+# Order-only phony target for Kruskal
+
+build cmake_object_order_depends_target_Kruskal: phony || CMakeFiles/Kruskal.dir
+
+build CMakeFiles/Kruskal.dir/Graph/Kruskal.cpp.obj: CXX_COMPILER__Kruskal_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/Kruskal.cpp || cmake_object_order_depends_target_Kruskal
+  DEP_FILE = CMakeFiles\Kruskal.dir\Graph\Kruskal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Kruskal.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Kruskal
+
+
+#############################################
+# Link the executable Kruskal.exe
+
+build Kruskal.exe: CXX_EXECUTABLE_LINKER__Kruskal_Debug CMakeFiles/Kruskal.dir/Graph/Kruskal.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Kruskal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Kruskal.exe
+  TARGET_IMPLIB = libKruskal.dll.a
+  TARGET_PDB = Kruskal.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dijkstra
+
+
+#############################################
+# Order-only phony target for Dijkstra
+
+build cmake_object_order_depends_target_Dijkstra: phony || CMakeFiles/Dijkstra.dir
+
+build CMakeFiles/Dijkstra.dir/Graph/Dijkstra.cpp.obj: CXX_COMPILER__Dijkstra_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/Dijkstra.cpp || cmake_object_order_depends_target_Dijkstra
+  DEP_FILE = CMakeFiles\Dijkstra.dir\Graph\Dijkstra.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dijkstra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dijkstra.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dijkstra
+
+
+#############################################
+# Link the executable Dijkstra.exe
+
+build Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.dir/Graph/Dijkstra.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dijkstra.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Dijkstra.exe
+  TARGET_IMPLIB = libDijkstra.dll.a
+  TARGET_PDB = Dijkstra.exe.dbg
 
 
 #############################################
@@ -1031,6 +1229,8 @@ build 5_17: phony 5_17.exe
 
 build 5_2: phony 5_2.exe
 
+build AdjacencyList: phony AdjacencyList.exe
+
 build C1_1: phony C1_1.exe
 
 build C1_2: phony C1_2.exe
@@ -1039,7 +1239,11 @@ build C1_3: phony C1_3.exe
 
 build C2_1: phony C2_1.exe
 
+build Chainforwardstar: phony Chainforwardstar.exe
+
 build CircularLinkedList: phony CircularLinkedList.exe
+
+build Dijkstra: phony Dijkstra.exe
 
 build DoubleLinkedList: phony DoubleLinkedList.exe
 
@@ -1047,9 +1251,11 @@ build Graph1: phony Graph1.exe
 
 build Graph2: phony Graph2.exe
 
-build Graph3: phony Graph3.exe
-
 build HelloWorld: phony HelloWorld.exe
+
+build Kruskal: phony Kruskal.exe
+
+build Prim: phony Prim.exe
 
 build SingleLinkList: phony SingleLinkList.exe
 
@@ -1060,6 +1266,10 @@ build binaryTree: phony binaryTree.exe
 build circularQueue: phony circularQueue.exe
 
 build dfs: phony dfs.exe
+
+build graphBFS: phony graphBFS.exe
+
+build graphDFS: phony graphDFS.exe
 
 build huffman1: phony huffman1.exe
 
@@ -1089,7 +1299,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe Graph3.exe adjacencyMatrix.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe
 
 # =============================================================================
 # Built-in targets

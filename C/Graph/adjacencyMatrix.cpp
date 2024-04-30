@@ -61,7 +61,9 @@ int n,m;//供输入n对边与m个顶点(x,y<=m)
 
 int main()
 {
+    cout<<"输入有几对边和几对顶点"<<endl;
     cin>>n>>m;
+    cout<<"输入边:";
     for(int i=0;i<n;i++)
     {
         cin>>x>>y;

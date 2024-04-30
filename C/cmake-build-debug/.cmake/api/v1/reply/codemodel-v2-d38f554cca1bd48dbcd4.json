@@ -43,7 +43,13 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -86,7 +92,13 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -122,6 +134,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "AdjacencyList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AdjacencyList-Debug-42a01c7fda608fe2721d.json",
+					"name" : "AdjacencyList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "C1_1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C1_1-Debug-fd6383ff2148c42fb308.json",
 					"name" : "C1_1",
@@ -150,9 +169,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Chainforwardstar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chainforwardstar-Debug-c261e2c5277e81e0b67d.json",
+					"name" : "Chainforwardstar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "CircularLinkedList::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CircularLinkedList-Debug-f9f99dfafd9a393c67a8.json",
 					"name" : "CircularLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dijkstra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dijkstra-Debug-df9eea6e09a3c9c95418.json",
+					"name" : "Dijkstra",
 					"projectIndex" : 0
 				},
 				{
@@ -178,16 +211,23 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Graph3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Graph3-Debug-5984a88874b6c8262130.json",
-					"name" : "Graph3",
+					"id" : "HelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWorld-Debug-25cdc7e231b1271189c1.json",
+					"name" : "HelloWorld",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "HelloWorld::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HelloWorld-Debug-25cdc7e231b1271189c1.json",
-					"name" : "HelloWorld",
+					"id" : "Kruskal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kruskal-Debug-afbb156d2f73191cbfda.json",
+					"name" : "Kruskal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Prim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Prim-Debug-13096c9ac24f2802d976.json",
+					"name" : "Prim",
 					"projectIndex" : 0
 				},
 				{
@@ -200,7 +240,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "adjacencyMatrix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adjacencyMatrix-Debug-2a8686858e0f3bde2836.json",
+					"jsonFile" : "target-adjacencyMatrix-Debug-995f6e7d5c037d788992.json",
 					"name" : "adjacencyMatrix",
 					"projectIndex" : 0
 				},
@@ -223,6 +263,20 @@
 					"id" : "dfs::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-dfs-Debug-421f1defee48f82805d4.json",
 					"name" : "dfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphBFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphBFS-Debug-7f47a98f9f45d52c9db0.json",
+					"name" : "graphBFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphDFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphDFS-Debug-006197bd644ca098e6be.json",
+					"name" : "graphDFS",
 					"projectIndex" : 0
 				},
 				{

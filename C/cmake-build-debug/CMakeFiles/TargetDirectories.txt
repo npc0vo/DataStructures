@@ -25,7 +25,13 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffmanC2_2.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/huffmanC2_3.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph1.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph2.dir
-C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Graph3.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/adjacencyMatrix.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/AdjacencyList.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Chainforwardstar.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/graphDFS.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/graphBFS.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Prim.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Kruskal.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Dijkstra.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

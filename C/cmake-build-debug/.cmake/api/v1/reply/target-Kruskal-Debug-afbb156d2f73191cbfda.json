@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Graph3.exe"
+			"path" : "Kruskal.exe"
 		},
 		{
-			"path" : "Graph3.pdb"
+			"path" : "Kruskal.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 48,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "Graph3::@6890427a1f51a3e7e1df",
+	"id" : "Kruskal::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Graph3",
-	"nameOnDisk" : "Graph3.exe",
+	"name" : "Kruskal",
+	"nameOnDisk" : "Kruskal.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "educoderOJ/Graph_lab2/3.cpp",
+			"path" : "Graph/Kruskal.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
