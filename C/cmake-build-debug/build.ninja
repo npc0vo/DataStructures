@@ -1195,6 +1195,72 @@ build Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.di
   TARGET_IMPLIB = libDijkstra.dll.a
   TARGET_PDB = Dijkstra.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target misson1
+
+
+#############################################
+# Order-only phony target for misson1
+
+build cmake_object_order_depends_target_misson1: phony || CMakeFiles/misson1.dir
+
+build CMakeFiles/misson1.dir/educoderOJ/Graph_lab2/misson1.cpp.obj: CXX_COMPILER__misson1_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/misson1.cpp || cmake_object_order_depends_target_misson1
+  DEP_FILE = CMakeFiles\misson1.dir\educoderOJ\Graph_lab2\misson1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\misson1.dir
+  OBJECT_FILE_DIR = CMakeFiles\misson1.dir\educoderOJ\Graph_lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target misson1
+
+
+#############################################
+# Link the executable misson1.exe
+
+build misson1.exe: CXX_EXECUTABLE_LINKER__misson1_Debug CMakeFiles/misson1.dir/educoderOJ/Graph_lab2/misson1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\misson1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = misson1.exe
+  TARGET_IMPLIB = libmisson1.dll.a
+  TARGET_PDB = misson1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target misson2
+
+
+#############################################
+# Order-only phony target for misson2
+
+build cmake_object_order_depends_target_misson2: phony || CMakeFiles/misson2.dir
+
+build CMakeFiles/misson2.dir/educoderOJ/Graph_lab2/misson2.cpp.obj: CXX_COMPILER__misson2_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/educoderOJ/Graph_lab2/misson2.cpp || cmake_object_order_depends_target_misson2
+  DEP_FILE = CMakeFiles\misson2.dir\educoderOJ\Graph_lab2\misson2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\misson2.dir
+  OBJECT_FILE_DIR = CMakeFiles\misson2.dir\educoderOJ\Graph_lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target misson2
+
+
+#############################################
+# Link the executable misson2.exe
+
+build misson2.exe: CXX_EXECUTABLE_LINKER__misson2_Debug CMakeFiles/misson2.dir/educoderOJ/Graph_lab2/misson2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\misson2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = misson2.exe
+  TARGET_IMPLIB = libmisson2.dll.a
+  TARGET_PDB = misson2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1285,6 +1351,10 @@ build huffmanTree: phony huffmanTree.exe
 
 build kmp: phony kmp.exe
 
+build misson1: phony misson1.exe
+
+build misson2: phony misson2.exe
+
 build sequentialQueue: phony sequentialQueue.exe
 
 build stack: phony stack.exe
@@ -1299,7 +1369,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe
 
 # =============================================================================
 # Built-in targets

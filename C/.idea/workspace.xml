@@ -37,6 +37,8 @@
       <config projectName="C" targetName="DoubleLinkedList" />
       <config projectName="C" targetName="kmp" />
       <config projectName="C" targetName="Dijkstra" />
+      <config projectName="C" targetName="misson2" />
+      <config projectName="C" targetName="misson1" />
       <config projectName="C" targetName="stack" />
       <config projectName="C" targetName="huffmanTree" />
       <config projectName="C" targetName="HelloWorld" />
@@ -55,46 +57,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/AdjacencyList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Chainforwardstar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Dijkstra.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Dijkstra.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Kruskal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Kruskal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Prim.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Prim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/graphBFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/graphDFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/AdjacencyList.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdjacencyList.dir/Graph/AdjacencyList.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Chainforwardstar.dir/Graph/Chainforwardstar.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kruskal.dir/Graph/Kruskal.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Prim.dir/Graph/Prim.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphBFS.dir/Graph/graphBFS.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphDFS.dir/Graph/graphDFS.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Chainforwardstar.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Kruskal.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Prim.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/graphBFS.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/graphDFS.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/adjacencyMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/adjacencyMatrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7a2d1bba84910ed46a77.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-23T14-32-21-0788.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Graph3-Debug-5984a88874b6c8262130.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-adjacencyMatrix-Debug-2a8686858e0f3bde2836.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d38f554cca1bd48dbcd4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T10-03-51-0434.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjacencyMatrix.dir/Graph/adjacencyMatrix.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjacencyMatrix.dir/Graph/adjacencyMatrix.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/adjacencyMatrix.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/adjacencyMatrix.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educoderOJ/Graph_lab2/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educoderOJ/Graph_lab2/3.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +84,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/x86_64-w64-mingw32/include/stdio.h" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -159,6 +136,8 @@
     "CMake 应用程序.huffmanC2_3.executor": "Run",
     "CMake 应用程序.huffmanTree.executor": "Run",
     "CMake 应用程序.kmp.executor": "Run",
+    "CMake 应用程序.misson1.executor": "Run",
+    "CMake 应用程序.misson2.executor": "Run",
     "CMake 应用程序.sequentialQueue.executor": "Run",
     "CMake 应用程序.stack.executor": "Run",
     "CMake 应用程序.vm.executor": "Run",
@@ -188,7 +167,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.Dijkstra">
+  <component name="RunManager" selected="CMake 应用程序.misson2">
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -354,6 +333,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="misson1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="misson1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="misson1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="misson2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="misson2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="misson2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sequentialQueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="sequentialQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="sequentialQueue">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -408,6 +397,8 @@
       <item itemvalue="CMake 应用程序.huffmanTree" />
       <item itemvalue="CMake 应用程序.kmp" />
       <item itemvalue="CMake 应用程序.Kruskal" />
+      <item itemvalue="CMake 应用程序.misson1" />
+      <item itemvalue="CMake 应用程序.misson2" />
       <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
       <item itemvalue="CMake 应用程序.stack" />
@@ -463,7 +454,8 @@
       <workItem from="1714024139559" duration="6830000" />
       <workItem from="1714286708005" duration="2365000" />
       <workItem from="1714289182974" duration="5808000" />
-      <workItem from="1714470988596" duration="5411000" />
+      <workItem from="1714470988596" duration="12193000" />
+      <workItem from="1714574273315" duration="1713000" />
     </task>
     <servers />
   </component>
