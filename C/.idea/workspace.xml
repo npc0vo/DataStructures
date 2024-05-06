@@ -27,6 +27,7 @@
       <config projectName="C" targetName="huffman1" />
       <config projectName="C" targetName="5_17" />
       <config projectName="C" targetName="vm" />
+      <config projectName="C" targetName="floyed" />
       <config projectName="C" targetName="binaryTree" />
       <config projectName="C" targetName="CircularLinkedList" />
       <config projectName="C" targetName="sequentialQueue" />
@@ -57,18 +58,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/floyed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/floyed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d38f554cca1bd48dbcd4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T10-03-51-0434.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-884f733939e2f3eee44d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T11-39-47-0307.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C2_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C2_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/misson2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/misson2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +121,7 @@
     "CMake 应用程序.5_2.executor": "Run",
     "CMake 应用程序.AdjacencyList.executor": "Run",
     "CMake 应用程序.C.executor": "Run",
-    "CMake 应用程序.C2_1.executor": "Run",
+    "CMake 应用程序.C2_1.executor": "Debug",
     "CMake 应用程序.C2_2.executor": "Run",
     "CMake 应用程序.C2_3.executor": "Run",
     "CMake 应用程序.Chainforwardstar.executor": "Run",
@@ -130,6 +136,7 @@
     "CMake 应用程序.binaryTree.executor": "Run",
     "CMake 应用程序.circularQueue.executor": "Run",
     "CMake 应用程序.dfs.executor": "Run",
+    "CMake 应用程序.floyed.executor": "Debug",
     "CMake 应用程序.graphBFS.executor": "Run",
     "CMake 应用程序.graphDFS.executor": "Run",
     "CMake 应用程序.huffmanC2_2.executor": "Run",
@@ -155,7 +162,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -167,7 +174,12 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.misson2">
+  <component name="RunManager" selected="CMake 应用程序.floyed">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -288,6 +300,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="floyed" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="floyed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="floyed">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="graphBFS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="graphBFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="graphBFS">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -378,6 +395,7 @@
       <item itemvalue="CMake 应用程序.Chainforwardstar" />
       <item itemvalue="CMake 应用程序.CircularLinkedList" />
       <item itemvalue="CMake 应用程序.DoubleLinkedList" />
+      <item itemvalue="CMake 应用程序.floyed" />
       <item itemvalue="CMake 应用程序.Graph1" />
       <item itemvalue="CMake 应用程序.Graph2" />
       <item itemvalue="CMake 应用程序.graphBFS" />
@@ -456,6 +474,10 @@
       <workItem from="1714289182974" duration="5808000" />
       <workItem from="1714470988596" duration="12193000" />
       <workItem from="1714574273315" duration="1713000" />
+      <workItem from="1714742704090" duration="712000" />
+      <workItem from="1714824429559" duration="195000" />
+      <workItem from="1714882983100" duration="668000" />
+      <workItem from="1714983494434" duration="6880000" />
     </task>
     <servers />
   </component>
@@ -499,8 +521,25 @@
           <line>17</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp</url>
+          <line>213</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp</url>
+          <line>151</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="dist" language="ObjectiveC" />
+        <watch expression="prev" language="ObjectiveC" />
+        <watch expression="visited" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

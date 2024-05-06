@@ -35,5 +35,6 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Kruskal.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/Dijkstra.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/misson1.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/misson2.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/floyed.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

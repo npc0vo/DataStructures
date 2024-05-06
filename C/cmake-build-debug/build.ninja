@@ -1261,6 +1261,39 @@ build misson2.exe: CXX_EXECUTABLE_LINKER__misson2_Debug CMakeFiles/misson2.dir/e
   TARGET_IMPLIB = libmisson2.dll.a
   TARGET_PDB = misson2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target floyed
+
+
+#############################################
+# Order-only phony target for floyed
+
+build cmake_object_order_depends_target_floyed: phony || CMakeFiles/floyed.dir
+
+build CMakeFiles/floyed.dir/Graph/floyed.cpp.obj: CXX_COMPILER__floyed_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Graph/floyed.cpp || cmake_object_order_depends_target_floyed
+  DEP_FILE = CMakeFiles\floyed.dir\Graph\floyed.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\floyed.dir
+  OBJECT_FILE_DIR = CMakeFiles\floyed.dir\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target floyed
+
+
+#############################################
+# Link the executable floyed.exe
+
+build floyed.exe: CXX_EXECUTABLE_LINKER__floyed_Debug CMakeFiles/floyed.dir/Graph/floyed.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\floyed.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = floyed.exe
+  TARGET_IMPLIB = libfloyed.dll.a
+  TARGET_PDB = floyed.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1333,6 +1366,8 @@ build circularQueue: phony circularQueue.exe
 
 build dfs: phony dfs.exe
 
+build floyed: phony floyed.exe
+
 build graphBFS: phony graphBFS.exe
 
 build graphDFS: phony graphDFS.exe
@@ -1369,7 +1404,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe
 
 # =============================================================================
 # Built-in targets
