@@ -34,6 +34,7 @@
       <config projectName="C" targetName="graphBFS" />
       <config projectName="C" targetName="graphDFS" />
       <config projectName="C" targetName="SingleLinkList" />
+      <config projectName="C" targetName="ActivityOnEdge" />
       <config projectName="C" targetName="adjacencyMatrix" />
       <config projectName="C" targetName="DoubleLinkedList" />
       <config projectName="C" targetName="kmp" />
@@ -58,23 +59,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/floyed.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/floyed.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/ActivityOnEdge.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/ActivityOnEdge.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-884f733939e2f3eee44d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T11-39-47-0307.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-71e0adb7cfca3c79ab25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-06T09-54-24-0265.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C2_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C2_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/misson2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/misson2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/educoderOJ/Graph_lab2/misson2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educoderOJ/Huffman_lab1/C2_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/educoderOJ/Huffman_lab1/C2_1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,9 +118,10 @@
     "CMake 应用程序.3_9.executor": "Run",
     "CMake 应用程序.5_17.executor": "Run",
     "CMake 应用程序.5_2.executor": "Run",
+    "CMake 应用程序.ActivityOnEdge.executor": "Run",
     "CMake 应用程序.AdjacencyList.executor": "Run",
     "CMake 应用程序.C.executor": "Run",
-    "CMake 应用程序.C2_1.executor": "Debug",
+    "CMake 应用程序.C2_1.executor": "Run",
     "CMake 应用程序.C2_2.executor": "Run",
     "CMake 应用程序.C2_3.executor": "Run",
     "CMake 应用程序.Chainforwardstar.executor": "Run",
@@ -162,7 +162,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -174,7 +174,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.floyed">
+  <component name="RunManager" selected="CMake 应用程序.ActivityOnEdge">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -196,6 +196,11 @@
       </method>
     </configuration>
     <configuration name="5_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="5_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="5_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityOnEdge" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="ActivityOnEdge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="ActivityOnEdge">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -387,6 +392,7 @@
       <item itemvalue="CMake 应用程序.3_9" />
       <item itemvalue="CMake 应用程序.5_17" />
       <item itemvalue="CMake 应用程序.5_2" />
+      <item itemvalue="CMake 应用程序.ActivityOnEdge" />
       <item itemvalue="CMake 应用程序.AdjacencyList" />
       <item itemvalue="CMake 应用程序.C1_1" />
       <item itemvalue="CMake 应用程序.C1_2" />
@@ -394,19 +400,21 @@
       <item itemvalue="CMake 应用程序.C2_1" />
       <item itemvalue="CMake 应用程序.Chainforwardstar" />
       <item itemvalue="CMake 应用程序.CircularLinkedList" />
+      <item itemvalue="CMake 应用程序.Dijkstra" />
       <item itemvalue="CMake 应用程序.DoubleLinkedList" />
-      <item itemvalue="CMake 应用程序.floyed" />
       <item itemvalue="CMake 应用程序.Graph1" />
       <item itemvalue="CMake 应用程序.Graph2" />
-      <item itemvalue="CMake 应用程序.graphBFS" />
-      <item itemvalue="CMake 应用程序.graphDFS" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
+      <item itemvalue="CMake 应用程序.Kruskal" />
+      <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.adjacencyMatrix" />
       <item itemvalue="CMake 应用程序.binaryTree" />
       <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.dfs" />
-      <item itemvalue="CMake 应用程序.Dijkstra" />
+      <item itemvalue="CMake 应用程序.floyed" />
+      <item itemvalue="CMake 应用程序.graphBFS" />
+      <item itemvalue="CMake 应用程序.graphDFS" />
       <item itemvalue="CMake 应用程序.huffman1" />
       <item itemvalue="CMake 应用程序.huffman2" />
       <item itemvalue="CMake 应用程序.huffman3" />
@@ -414,10 +422,8 @@
       <item itemvalue="CMake 应用程序.huffmanC2_3" />
       <item itemvalue="CMake 应用程序.huffmanTree" />
       <item itemvalue="CMake 应用程序.kmp" />
-      <item itemvalue="CMake 应用程序.Kruskal" />
       <item itemvalue="CMake 应用程序.misson1" />
       <item itemvalue="CMake 应用程序.misson2" />
-      <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
       <item itemvalue="CMake 应用程序.stack" />
       <item itemvalue="CMake 应用程序.vm" />
@@ -477,7 +483,11 @@
       <workItem from="1714742704090" duration="712000" />
       <workItem from="1714824429559" duration="195000" />
       <workItem from="1714882983100" duration="668000" />
-      <workItem from="1714983494434" duration="6880000" />
+      <workItem from="1714983494434" duration="7268000" />
+      <workItem from="1714999966924" duration="1592000" />
+      <workItem from="1715002541857" duration="4000" />
+      <workItem from="1715006046769" duration="2000" />
+      <workItem from="1715050732646" duration="4394000" />
     </task>
     <servers />
   </component>

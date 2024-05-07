@@ -52,7 +52,8 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38
 					]
 				}
 			],
@@ -104,7 +105,8 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38
 					]
 				}
 			],
@@ -136,6 +138,13 @@
 					"id" : "5_2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-5_2-Debug-21783c4694a27cab3e6b.json",
 					"name" : "5_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ActivityOnEdge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ActivityOnEdge-Debug-a5fbe704619dd7d3fb2e.json",
+					"name" : "ActivityOnEdge",
 					"projectIndex" : 0
 				},
 				{
