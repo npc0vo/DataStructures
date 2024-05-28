@@ -10,7 +10,8 @@ add_executable(5_2 educoderOJ/Classproblems/5_2.cpp)
 add_executable(C1_1 educoderOJ/lab0/C1_1.cpp
         educoderOJ/lab0/linearList.h)
 add_executable(3_10 educoderOJ/Classproblems/3_10.cpp
-        LinkList/SingleLinkList.h)
+        LinkList/SingleLinkList.h
+        Graph/ActivityOnEdge.h)
 
 add_executable(C1_2 educoderOJ/lab0/C1_2.cpp
        educoderOJ/lab0/slink.h)
@@ -56,4 +57,12 @@ add_executable(Dijkstra Graph/Dijkstra.cpp)
 add_executable(misson1 educoderOJ/Graph_lab2/misson1.cpp)
 add_executable(misson2 educoderOJ/Graph_lab2/misson2.cpp)
 add_executable(floyed Graph/floyed.h Graph/floyed.cpp)
-add_executable(ActivityOnEdge Graph/ActivityOnEdge.cpp)
+add_executable(ActivityOnEdge Graph/ActivityOnEdge.cpp
+        Graph/ActivityOnEdge.h)
+
+add_executable(threadedBinaryTree  "Tree/threadedBinaryTree .h"
+        "Tree/threadedBinaryTree .cpp")
+add_executable(AVL Search/AVL.cpp)
+add_executable(BTree Search/BTree.cpp)
+add_executable(hashTable Search/hashTable.cpp)
+add_executable(staticSearch Search/staticSearch.cpp)

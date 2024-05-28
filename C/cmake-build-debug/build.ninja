@@ -1327,6 +1327,171 @@ build ActivityOnEdge.exe: CXX_EXECUTABLE_LINKER__ActivityOnEdge_Debug CMakeFiles
   TARGET_IMPLIB = libActivityOnEdge.dll.a
   TARGET_PDB = ActivityOnEdge.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target threadedBinaryTree
+
+
+#############################################
+# Order-only phony target for threadedBinaryTree
+
+build cmake_object_order_depends_target_threadedBinaryTree: phony || CMakeFiles/threadedBinaryTree.dir
+
+build CMakeFiles/threadedBinaryTree.dir/Tree/threadedBinaryTree_.cpp.obj: CXX_COMPILER__threadedBinaryTree_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Tree/threadedBinaryTree$ .cpp || cmake_object_order_depends_target_threadedBinaryTree
+  DEP_FILE = CMakeFiles\threadedBinaryTree.dir\Tree\threadedBinaryTree_.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\threadedBinaryTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\threadedBinaryTree.dir\Tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target threadedBinaryTree
+
+
+#############################################
+# Link the executable threadedBinaryTree.exe
+
+build threadedBinaryTree.exe: CXX_EXECUTABLE_LINKER__threadedBinaryTree_Debug CMakeFiles/threadedBinaryTree.dir/Tree/threadedBinaryTree_.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\threadedBinaryTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = threadedBinaryTree.exe
+  TARGET_IMPLIB = libthreadedBinaryTree.dll.a
+  TARGET_PDB = threadedBinaryTree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AVL
+
+
+#############################################
+# Order-only phony target for AVL
+
+build cmake_object_order_depends_target_AVL: phony || CMakeFiles/AVL.dir
+
+build CMakeFiles/AVL.dir/Search/AVL.cpp.obj: CXX_COMPILER__AVL_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Search/AVL.cpp || cmake_object_order_depends_target_AVL
+  DEP_FILE = CMakeFiles\AVL.dir\Search\AVL.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AVL.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVL.dir\Search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AVL
+
+
+#############################################
+# Link the executable AVL.exe
+
+build AVL.exe: CXX_EXECUTABLE_LINKER__AVL_Debug CMakeFiles/AVL.dir/Search/AVL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AVL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AVL.exe
+  TARGET_IMPLIB = libAVL.dll.a
+  TARGET_PDB = AVL.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BTree
+
+
+#############################################
+# Order-only phony target for BTree
+
+build cmake_object_order_depends_target_BTree: phony || CMakeFiles/BTree.dir
+
+build CMakeFiles/BTree.dir/Search/BTree.cpp.obj: CXX_COMPILER__BTree_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Search/BTree.cpp || cmake_object_order_depends_target_BTree
+  DEP_FILE = CMakeFiles\BTree.dir\Search\BTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\BTree.dir\Search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BTree
+
+
+#############################################
+# Link the executable BTree.exe
+
+build BTree.exe: CXX_EXECUTABLE_LINKER__BTree_Debug CMakeFiles/BTree.dir/Search/BTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BTree.exe
+  TARGET_IMPLIB = libBTree.dll.a
+  TARGET_PDB = BTree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hashTable
+
+
+#############################################
+# Order-only phony target for hashTable
+
+build cmake_object_order_depends_target_hashTable: phony || CMakeFiles/hashTable.dir
+
+build CMakeFiles/hashTable.dir/Search/hashTable.cpp.obj: CXX_COMPILER__hashTable_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Search/hashTable.cpp || cmake_object_order_depends_target_hashTable
+  DEP_FILE = CMakeFiles\hashTable.dir\Search\hashTable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hashTable.dir
+  OBJECT_FILE_DIR = CMakeFiles\hashTable.dir\Search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hashTable
+
+
+#############################################
+# Link the executable hashTable.exe
+
+build hashTable.exe: CXX_EXECUTABLE_LINKER__hashTable_Debug CMakeFiles/hashTable.dir/Search/hashTable.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hashTable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hashTable.exe
+  TARGET_IMPLIB = libhashTable.dll.a
+  TARGET_PDB = hashTable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target staticSearch
+
+
+#############################################
+# Order-only phony target for staticSearch
+
+build cmake_object_order_depends_target_staticSearch: phony || CMakeFiles/staticSearch.dir
+
+build CMakeFiles/staticSearch.dir/Search/staticSearch.cpp.obj: CXX_COMPILER__staticSearch_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Search/staticSearch.cpp || cmake_object_order_depends_target_staticSearch
+  DEP_FILE = CMakeFiles\staticSearch.dir\Search\staticSearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\staticSearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\staticSearch.dir\Search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target staticSearch
+
+
+#############################################
+# Link the executable staticSearch.exe
+
+build staticSearch.exe: CXX_EXECUTABLE_LINKER__staticSearch_Debug CMakeFiles/staticSearch.dir/Search/staticSearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\staticSearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = staticSearch.exe
+  TARGET_IMPLIB = libstaticSearch.dll.a
+  TARGET_PDB = staticSearch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1361,9 +1526,13 @@ build 5_17: phony 5_17.exe
 
 build 5_2: phony 5_2.exe
 
+build AVL: phony AVL.exe
+
 build ActivityOnEdge: phony ActivityOnEdge.exe
 
 build AdjacencyList: phony AdjacencyList.exe
+
+build BTree: phony BTree.exe
 
 build C1_1: phony C1_1.exe
 
@@ -1407,6 +1576,8 @@ build graphBFS: phony graphBFS.exe
 
 build graphDFS: phony graphDFS.exe
 
+build hashTable: phony hashTable.exe
+
 build huffman1: phony huffman1.exe
 
 build huffman2: phony huffman2.exe
@@ -1429,6 +1600,10 @@ build sequentialQueue: phony sequentialQueue.exe
 
 build stack: phony stack.exe
 
+build staticSearch: phony staticSearch.exe
+
+build threadedBinaryTree: phony threadedBinaryTree.exe
+
 build vm: phony vm.exe
 
 # =============================================================================
@@ -1439,7 +1614,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe
 
 # =============================================================================
 # Built-in targets

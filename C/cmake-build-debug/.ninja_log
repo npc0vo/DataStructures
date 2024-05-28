@@ -1,14 +1,14 @@
 # ninja log v5
 0	107	7350689044586294	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.cpp.obj	c701669e566cc207
 108	205	7350689045526291	SingleLinkList.exe	4c97481f27ae8d82
+0	81	7350589887356212	CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj	20d3564309ad9367
+1	80	7367053245170361	CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj	63797bf8f15acd5
 109	218	7359952625190996	Prim.exe	153cdb4c0dbdeb0
 0	95	7355792618640623	CMakeFiles/huffmanC2_2.dir/educoderOJ/Huffman_lab1/C2_2.cpp.obj	fce49945f97f99e1
-1	80	7367053245170361	CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj	63797bf8f15acd5
-0	81	7350589887356212	CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj	20d3564309ad9367
+2	211	7351530716972453	CMakeFiles/kmp.dir/String/kmp.cpp.obj	ab269df2aac7bcd4
+0	82	7350592866784862	CMakeFiles/111.dir/LinkList/111.cpp.obj	79c6fc837d6ce889
 94	176	7355743068365450	C2_3.exe	2567e5d08a983c8a
 0	89	7353938879631353	CMakeFiles/vm.dir/vm.cpp.obj	2a47c6b416a2f748
-0	82	7350592866784862	CMakeFiles/111.dir/LinkList/111.cpp.obj	79c6fc837d6ce889
-2	211	7351530716972453	CMakeFiles/kmp.dir/String/kmp.cpp.obj	ab269df2aac7bcd4
 82	161	7350589888124339	HelloWorld.exe	4d92b4aa2f3e014a
 99	188	7354909388204720	huffmanTree.exe	6590e440f489c29d
 82	165	7350592867567222	111.exe	f009be3c1e02e28f
@@ -16,13 +16,13 @@
 95	182	7355792619472607	huffmanC2_2.exe	771b6127b7c5547a
 1	86	7350682020799779	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.c.obj	9f51549dc36068de
 83	161	7351259254230162	DoubleLinkedList.exe	9d9d3deb16d8467e
-1	110	7367539792725756	build.ninja	68936c95925548ab
+1	110	7385878541138611	build.ninja	68936c95925548ab
 2	91	7351288493658922	CMakeFiles/CircularLinkedList.dir/LinkList/CircularLinkedList.cpp.obj	acfde240b5e7b6e2
 88	164	7357330162028302	graphDFS.exe	ee33d893a903522b
 2	97	7362780592344920	CMakeFiles/misson1.dir/educoderOJ/Graph_lab2/misson1.cpp.obj	232651dcecc54c57
 91	184	7351288494546963	CircularLinkedList.exe	68baf8a460fdd05
-0	98	7351437920489287	CMakeFiles/stack.dir/Stack/LinkedStack.cpp.obj	b58f51878cd4ddf5
 85	166	7354973417284846	1.exe	83f52da5c5871378
+0	98	7351437920489287	CMakeFiles/stack.dir/Stack/LinkedStack.cpp.obj	b58f51878cd4ddf5
 0	1656	7361798585459284	CMakeFiles/Dijkstra.dir/Graph/Dijkstra.cpp.obj	38555779f708fad
 98	214	7351437921609492	stack.exe	116d0bf750f799c7
 1	77	7351461242523016	CMakeFiles/sequentialQueue.dir/queue/sequentialQueue.cpp.obj	dfe6b2c57f0ab185
@@ -49,6 +49,8 @@
 95	177	7355805519582440	huffmanC2_3.exe	3f28a321738bd3f8
 203	286	7355870667767886	adjacencyMatrix.exe	ccee58165d8a5d5f
 2	218	7357281231381774	CMakeFiles/AdjacencyList.dir/Graph/AdjacencyList.cpp.obj	1384c1773f3f69a6
+288	378	7367598485860847	ActivityOnEdge.exe	ea90f3e3d2f122c8
+1	92	7368636418419238	CMakeFiles/threadedBinaryTree.dir/Tree/threadedBinaryTree_.cpp.obj	bb336908b6d5f825
 218	298	7357281232148053	AdjacencyList.exe	8e147be81a53bd1f
 1	87	7357330161290904	CMakeFiles/graphDFS.dir/Graph/graphDFS.cpp.obj	8cb4f8e241536acb
 2	94	7357329718365581	CMakeFiles/graphBFS.dir/Graph/graphBFS.cpp.obj	1d2dc1fbe9740422
@@ -59,11 +61,7 @@
 1	530	7366913889616154	CMakeFiles/misson2.dir/educoderOJ/Graph_lab2/misson2.cpp.obj	173be7490f180c00
 1656	2686	7361798595708785	Dijkstra.exe	774b97b4cb7a3782
 1	94	7362780697189145	misson1.exe	631a8c6a5db0b77
+1	288	7367598484996106	CMakeFiles/ActivityOnEdge.dir/Graph/ActivityOnEdge.cpp.obj	d01cec1b10cbf998
 530	1617	7366913900458776	misson2.exe	5c016b0c3d5d988
 244	330	7366959364887984	floyed.exe	e9511c80cd5ca88e
-0	304	7367598018963466	CMakeFiles/ActivityOnEdge.dir/Graph/ActivityOnEdge.cpp.obj	d01cec1b10cbf998
-304	423	7367598020126694	ActivityOnEdge.exe	ea90f3e3d2f122c8
-2	284	7367598141529897	CMakeFiles/ActivityOnEdge.dir/Graph/ActivityOnEdge.cpp.obj	d01cec1b10cbf998
-284	378	7367598142431354	ActivityOnEdge.exe	ea90f3e3d2f122c8
-1	288	7367598484996106	CMakeFiles/ActivityOnEdge.dir/Graph/ActivityOnEdge.cpp.obj	d01cec1b10cbf998
-288	378	7367598485860847	ActivityOnEdge.exe	ea90f3e3d2f122c8
+92	177	7368636419215274	threadedBinaryTree.exe	a28a05be336569db
