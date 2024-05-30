@@ -23,6 +23,7 @@
       <config projectName="C" targetName="dfs" />
       <config projectName="C" targetName="3_10" />
       <config projectName="C" targetName="huffman2" />
+      <config projectName="C" targetName="blockSearch" />
       <config projectName="C" targetName="huffman3" />
       <config projectName="C" targetName="insertionSort" />
       <config projectName="C" targetName="huffman1" />
@@ -67,11 +68,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/secondOptimal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/blockSearch.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6cd2fa8d52e5a6ae80a1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-29T14-53-32-0456.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-21683b336aba5942632e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-30T08-22-41-0872.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -138,6 +139,7 @@
     "CMake 应用程序.SingleLinkList.executor": "Run",
     "CMake 应用程序.adjacencyMatrix.executor": "Run",
     "CMake 应用程序.binaryTree.executor": "Run",
+    "CMake 应用程序.blockSearch.executor": "Run",
     "CMake 应用程序.circularQueue.executor": "Run",
     "CMake 应用程序.dfs.executor": "Run",
     "CMake 应用程序.floyed.executor": "Debug",
@@ -182,7 +184,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.secondOptimal">
+  <component name="RunManager" selected="CMake 应用程序.blockSearch">
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -304,6 +306,11 @@
       </method>
     </configuration>
     <configuration name="binaryTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="binaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="binaryTree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blockSearch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="blockSearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="blockSearch">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -456,6 +463,7 @@
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.adjacencyMatrix" />
       <item itemvalue="CMake 应用程序.binaryTree" />
+      <item itemvalue="CMake 应用程序.blockSearch" />
       <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.dfs" />
       <item itemvalue="CMake 应用程序.floyed" />
@@ -544,7 +552,7 @@
       <workItem from="1716971214661" duration="4538000" />
       <workItem from="1716984736739" duration="271000" />
       <workItem from="1716985019856" duration="4122000" />
-      <workItem from="1717035281347" duration="6362000" />
+      <workItem from="1717035281347" duration="7936000" />
     </task>
     <servers />
   </component>

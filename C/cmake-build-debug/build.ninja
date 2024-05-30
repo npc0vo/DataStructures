@@ -1591,6 +1591,39 @@ build secondOptimal.exe: CXX_EXECUTABLE_LINKER__secondOptimal_Debug CMakeFiles/s
   TARGET_IMPLIB = libsecondOptimal.dll.a
   TARGET_PDB = secondOptimal.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target blockSearch
+
+
+#############################################
+# Order-only phony target for blockSearch
+
+build cmake_object_order_depends_target_blockSearch: phony || CMakeFiles/blockSearch.dir
+
+build CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj: CXX_COMPILER__blockSearch_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Search/blockSearch.cpp || cmake_object_order_depends_target_blockSearch
+  DEP_FILE = CMakeFiles\blockSearch.dir\Search\blockSearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\blockSearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\blockSearch.dir\Search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target blockSearch
+
+
+#############################################
+# Link the executable blockSearch.exe
+
+build blockSearch.exe: CXX_EXECUTABLE_LINKER__blockSearch_Debug CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\blockSearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = blockSearch.exe
+  TARGET_IMPLIB = libblockSearch.dll.a
+  TARGET_PDB = blockSearch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1665,6 +1698,8 @@ build adjacencyMatrix: phony adjacencyMatrix.exe
 
 build binaryTree: phony binaryTree.exe
 
+build blockSearch: phony blockSearch.exe
+
 build circularQueue: phony circularQueue.exe
 
 build dfs: phony dfs.exe
@@ -1719,7 +1754,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe
 
 # =============================================================================
 # Built-in targets
