@@ -1,14 +1,14 @@
 # ninja log v5
 0	107	7350689044586294	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.cpp.obj	c701669e566cc207
 108	205	7350689045526291	SingleLinkList.exe	4c97481f27ae8d82
+1	80	7367053245170361	CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj	63797bf8f15acd5
+0	81	7350589887356212	CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj	20d3564309ad9367
 0	95	7355792618640623	CMakeFiles/huffmanC2_2.dir/educoderOJ/Huffman_lab1/C2_2.cpp.obj	fce49945f97f99e1
 109	218	7359952625190996	Prim.exe	153cdb4c0dbdeb0
-0	81	7350589887356212	CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj	20d3564309ad9367
-1	80	7367053245170361	CMakeFiles/C2_1.dir/educoderOJ/Huffman_lab1/C2_1.cpp.obj	63797bf8f15acd5
+0	82	7350592866784862	CMakeFiles/111.dir/LinkList/111.cpp.obj	79c6fc837d6ce889
+2	211	7351530716972453	CMakeFiles/kmp.dir/String/kmp.cpp.obj	ab269df2aac7bcd4
 2	100	7386976305450140	CMakeFiles/vm.dir/vm.cpp.obj	2a47c6b416a2f748
 94	176	7355743068365450	C2_3.exe	2567e5d08a983c8a
-2	211	7351530716972453	CMakeFiles/kmp.dir/String/kmp.cpp.obj	ab269df2aac7bcd4
-0	82	7350592866784862	CMakeFiles/111.dir/LinkList/111.cpp.obj	79c6fc837d6ce889
 82	161	7350589888124339	HelloWorld.exe	4d92b4aa2f3e014a
 99	188	7354909388204720	huffmanTree.exe	6590e440f489c29d
 82	165	7350592867567222	111.exe	f009be3c1e02e28f
@@ -16,7 +16,7 @@
 95	182	7355792619472607	huffmanC2_2.exe	771b6127b7c5547a
 1	86	7350682020799779	CMakeFiles/SingleLinkList.dir/LinkList/SingleLinkList.c.obj	9f51549dc36068de
 83	161	7351259254230162	DoubleLinkedList.exe	9d9d3deb16d8467e
-1	110	7387635126860065	build.ninja	68936c95925548ab
+1	110	7387657806799625	build.ninja	68936c95925548ab
 2	91	7351288493658922	CMakeFiles/CircularLinkedList.dir/LinkList/CircularLinkedList.cpp.obj	acfde240b5e7b6e2
 88	164	7357330162028302	graphDFS.exe	ee33d893a903522b
 2	97	7362780592344920	CMakeFiles/misson1.dir/educoderOJ/Graph_lab2/misson1.cpp.obj	232651dcecc54c57
@@ -71,11 +71,9 @@
 249	362	7386909207358791	insertionSort.exe	6390453fcd1908f6
 1	82	7387581128043967	CMakeFiles/staticSearch.dir/Search/staticSearch.cpp.obj	25d7dd8bcf81c668
 1	144	7387622066994324	CMakeFiles/secondOptimal.dir/Search/secondOptimal.cpp.obj	c7cca6108b636309
-0	94	7387636547127593	CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj	4ef6f346346e56d2
-94	202	7387636548167005	blockSearch.exe	93efae48186ae3e6
-1	89	7387636809173757	CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj	4ef6f346346e56d2
-89	185	7387636810093662	blockSearch.exe	93efae48186ae3e6
-1	80	7387640933374959	CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj	4ef6f346346e56d2
-1	102	7387640989048062	blockSearch.exe	93efae48186ae3e6
 1	87	7387641114941769	CMakeFiles/blockSearch.dir/Search/blockSearch.cpp.obj	4ef6f346346e56d2
 87	169	7387641115721747	blockSearch.exe	93efae48186ae3e6
+0	303	7387660174452934	CMakeFiles/binarySearchTree.dir/Search/binarySearchTree.cpp.obj	8f7cd84bc24b59bf
+304	418	7387660175555699	binarySearchTree.exe	f4b3c212424e2e6c
+2	225	7387660329974627	CMakeFiles/binarySearchTree.dir/Search/binarySearchTree.cpp.obj	8f7cd84bc24b59bf
+226	309	7387660330779397	binarySearchTree.exe	f4b3c212424e2e6c

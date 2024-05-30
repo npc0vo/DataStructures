@@ -62,7 +62,8 @@
 						44,
 						45,
 						46,
-						47
+						47,
+						48
 					]
 				}
 			],
@@ -124,7 +125,8 @@
 						44,
 						45,
 						46,
-						47
+						47,
+						48
 					]
 				}
 			],
@@ -289,6 +291,13 @@
 					"id" : "adjacencyMatrix::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-adjacencyMatrix-Debug-2a8686858e0f3bde2836.json",
 					"name" : "adjacencyMatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "binarySearchTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binarySearchTree-Debug-04a4da499c5b5f189cc7.json",
+					"name" : "binarySearchTree",
 					"projectIndex" : 0
 				},
 				{
