@@ -24,6 +24,7 @@
       <config projectName="C" targetName="3_10" />
       <config projectName="C" targetName="huffman2" />
       <config projectName="C" targetName="huffman3" />
+      <config projectName="C" targetName="insertionSort" />
       <config projectName="C" targetName="huffman1" />
       <config projectName="C" targetName="5_17" />
       <config projectName="C" targetName="vm" />
@@ -50,6 +51,7 @@
       <config projectName="C" targetName="HelloWorld" />
       <config projectName="C" targetName="circularQueue" />
       <config projectName="C" targetName="Chainforwardstar" />
+      <config projectName="C" targetName="shellSort" />
       <config projectName="C" targetName="threadedBinaryTree" />
       <config projectName="C" targetName="huffmanC2_2" />
       <config projectName="C" targetName="Graph1" />
@@ -64,63 +66,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/AVL.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/BTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/hashTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/staticSearch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/threadedBinaryTree .cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/threadedBinaryTree .h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OIWiki-learn/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OIWiki-learn/.idea/OIWiki-learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OIWiki-learn/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OIWiki-learn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OIWiki-learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/easySort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/shellSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-71de47d49f808bc6f725.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-07T02-59-39-0316.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-3_10-Debug-f3bdbf8f8e3d5b015390.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ActivityOnEdge-Debug-a5fbe704619dd7d3fb2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-AdjacencyList-Debug-42a01c7fda608fe2721d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C1_2-Debug-3567c8144b2ab163abc0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C1_3-Debug-2cf82ce00588fe1c4159.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C2_1-Debug-bd191753e5df16e26619.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Chainforwardstar-Debug-c261e2c5277e81e0b67d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CircularLinkedList-Debug-f9f99dfafd9a393c67a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Dijkstra-Debug-df9eea6e09a3c9c95418.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-DoubleLinkedList-Debug-bf750716371a7c6c3d56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Graph1-Debug-1ee8cc46173a861bfeac.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Graph2-Debug-98f49273b1a1ab68769e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-HelloWorld-Debug-25cdc7e231b1271189c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Kruskal-Debug-afbb156d2f73191cbfda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Prim-Debug-13096c9ac24f2802d976.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SingleLinkList-Debug-fe552ca122be26f00e44.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-adjacencyMatrix-Debug-995f6e7d5c037d788992.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-binaryTree-Debug-232bf0ec7fdf5b1a8756.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-circularQueue-Debug-0573896ec759b522ce14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-dfs-Debug-421f1defee48f82805d4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-floyed-Debug-008e19ac6bdfbfbf6482.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-graphBFS-Debug-7f47a98f9f45d52c9db0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-graphDFS-Debug-006197bd644ca098e6be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffman1-Debug-74e2c5f1fe8339f0f75a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffman2-Debug-0bf83f254fc202f84549.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffman3-Debug-857b5ef5f98874aa83d5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffmanC2_2-Debug-86f3fad8675b308a4365.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffmanC2_3-Debug-aba9048f3f6fad4bf171.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-huffmanTree-Debug-5d0cfa0969d2b0c2294f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-kmp-Debug-949f343efeee61f17bcb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-misson1-Debug-6939e2072728f8981769.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-misson2-Debug-995dbc3a250bda9020c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sequentialQueue-Debug-580aca4d83c10a06a99a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-stack-Debug-c732fdc9b9b1bf541e3c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vm-Debug-d29c0f695b5863dfe22d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/staticSearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Search/staticSearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fc4baee65e8fe756f3dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-28T08-24-14-0162.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/vm.dir/vm.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/vm.dir/vm.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vm.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +149,7 @@
     &quot;CMake 应用程序.huffmanC2_2.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.huffmanC2_3.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.huffmanTree.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.insertionSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.kmp.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.misson1.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.misson2.executor&quot;: &quot;Run&quot;,
@@ -222,7 +183,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.threadedBinaryTree">
+  <component name="RunManager" selected="CMake 应用程序.staticSearch">
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -408,6 +369,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insertionSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="insertionSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="insertionSort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="kmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="kmp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -424,6 +390,11 @@
       </method>
     </configuration>
     <configuration name="sequentialQueue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="sequentialQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="sequentialQueue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shellSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="shellSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="shellSort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -460,8 +431,10 @@
       <item itemvalue="CMake 应用程序.3_9" />
       <item itemvalue="CMake 应用程序.5_17" />
       <item itemvalue="CMake 应用程序.5_2" />
+      <item itemvalue="CMake 应用程序.AVL" />
       <item itemvalue="CMake 应用程序.ActivityOnEdge" />
       <item itemvalue="CMake 应用程序.AdjacencyList" />
+      <item itemvalue="CMake 应用程序.BTree" />
       <item itemvalue="CMake 应用程序.C1_1" />
       <item itemvalue="CMake 应用程序.C1_2" />
       <item itemvalue="CMake 应用程序.C1_3" />
@@ -477,9 +450,7 @@
       <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.adjacencyMatrix" />
-      <item itemvalue="CMake 应用程序.AVL" />
       <item itemvalue="CMake 应用程序.binaryTree" />
-      <item itemvalue="CMake 应用程序.BTree" />
       <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.dfs" />
       <item itemvalue="CMake 应用程序.floyed" />
@@ -492,10 +463,12 @@
       <item itemvalue="CMake 应用程序.huffmanC2_2" />
       <item itemvalue="CMake 应用程序.huffmanC2_3" />
       <item itemvalue="CMake 应用程序.huffmanTree" />
+      <item itemvalue="CMake 应用程序.insertionSort" />
       <item itemvalue="CMake 应用程序.kmp" />
       <item itemvalue="CMake 应用程序.misson1" />
       <item itemvalue="CMake 应用程序.misson2" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
+      <item itemvalue="CMake 应用程序.shellSort" />
       <item itemvalue="CMake 应用程序.stack" />
       <item itemvalue="CMake 应用程序.staticSearch" />
       <item itemvalue="CMake 应用程序.threadedBinaryTree" />
@@ -562,7 +535,11 @@
       <workItem from="1715160826801" duration="964000" />
       <workItem from="1715682156073" duration="11000" />
       <workItem from="1716866238327" duration="2151000" />
-      <workItem from="1716883923471" duration="2813000" />
+      <workItem from="1716883923471" duration="3069000" />
+      <workItem from="1716971214661" duration="4538000" />
+      <workItem from="1716984736739" duration="271000" />
+      <workItem from="1716985019856" duration="4122000" />
+      <workItem from="1717035281347" duration="3133000" />
     </task>
     <servers />
   </component>

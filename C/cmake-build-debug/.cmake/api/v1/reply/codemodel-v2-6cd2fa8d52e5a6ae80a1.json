@@ -58,7 +58,9 @@
 						40,
 						41,
 						42,
-						43
+						43,
+						44,
+						45
 					]
 				}
 			],
@@ -116,7 +118,9 @@
 						40,
 						41,
 						42,
-						43
+						43,
+						44,
+						45
 					]
 				}
 			],
@@ -376,6 +380,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "insertionSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insertionSort-Debug-8c388240b37caf6bd636.json",
+					"name" : "insertionSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "kmp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-kmp-Debug-015d56e50f3659be1a70.json",
 					"name" : "kmp",
@@ -400,6 +411,13 @@
 					"id" : "sequentialQueue::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-sequentialQueue-Debug-b4715186f4223b8fba5d.json",
 					"name" : "sequentialQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shellSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shellSort-Debug-31dd3af4fdb24f465b75.json",
+					"name" : "shellSort",
 					"projectIndex" : 0
 				},
 				{
