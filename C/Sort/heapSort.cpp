@@ -10,8 +10,8 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 
-// 堆调整函数
-void heapify(int arr[], int n, int i) {
+// 堆调整(下滤)函数
+void shiftdown(int arr[], int n, int i) {
     int largest = i;     // 将当前节点假设为最大值
     int left = 2 * i + 1; // 左子节点下标
     int right = 2 * i + 2; // 右子节点下标
@@ -27,15 +27,15 @@ void heapify(int arr[], int n, int i) {
     // 如果最大值不是当前节点，则交换并递归调整
     if (largest != i) {
         swap(&arr[i], &arr[largest]);
-        heapify(arr, n, largest);
+        shiftdown(arr, n, largest);
     }
 }
 
 // 堆排序主函数
 void heapSort(int arr[], int n) {
-    // 构建大顶堆
+    // 构建大顶堆(对每个父节点进行下滤)
     for (int i = n / 2 - 1; i >= 0; i--)
-        heapify(arr, n, i);
+        shiftdown(arr, n, i);
 
     // 一个个取出元素并重新构建最大堆
     for (int i = n - 1; i >= 0; i--) {
@@ -43,7 +43,7 @@ void heapSort(int arr[], int n) {
         swap(&arr[0], &arr[i]);
 
         // 对减少了一个元素的堆继续进行堆调整
-        heapify(arr, i, 0);
+        shiftdown(arr, i, 0);
     }
 }
 
