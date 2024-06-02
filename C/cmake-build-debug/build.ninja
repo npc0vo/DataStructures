@@ -1723,6 +1723,39 @@ build quickSort.exe: CXX_EXECUTABLE_LINKER__quickSort_Debug CMakeFiles/quickSort
   TARGET_IMPLIB = libquickSort.dll.a
   TARGET_PDB = quickSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target mergeSort
+
+
+#############################################
+# Order-only phony target for mergeSort
+
+build cmake_object_order_depends_target_mergeSort: phony || CMakeFiles/mergeSort.dir
+
+build CMakeFiles/mergeSort.dir/Sort/mergeSort.cpp.obj: CXX_COMPILER__mergeSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/mergeSort.cpp || cmake_object_order_depends_target_mergeSort
+  DEP_FILE = CMakeFiles\mergeSort.dir\Sort\mergeSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mergeSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\mergeSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergeSort
+
+
+#############################################
+# Link the executable mergeSort.exe
+
+build mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/Sort/mergeSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mergeSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mergeSort.exe
+  TARGET_IMPLIB = libmergeSort.dll.a
+  TARGET_PDB = mergeSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1831,6 +1864,8 @@ build insertionSort: phony insertionSort.exe
 
 build kmp: phony kmp.exe
 
+build mergeSort: phony mergeSort.exe
+
 build misson1: phony misson1.exe
 
 build misson2: phony misson2.exe
@@ -1859,7 +1894,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe
 
 # =============================================================================
 # Built-in targets

@@ -54,6 +54,7 @@
       <config projectName="C" targetName="heapSort" />
       <config projectName="C" targetName="ActivityOnEdge" />
       <config projectName="C" targetName="adjacencyMatrix" />
+      <config projectName="C" targetName="mergeSort" />
       <config projectName="C" targetName="kmp" />
       <config projectName="C" targetName="misson2" />
       <config projectName="C" targetName="misson1" />
@@ -71,20 +72,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/quickSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/mergeSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-73ee49fefca835e8e6e7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-01T12-39-17-0441.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6cda835d2a61a13cb9cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-01T13-33-04-0575.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/heapSort.dir/Sort/heapSort.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/heapSort.dir/Sort/heapSort.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/heapSort.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/heapSort.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,73 +118,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ 文件.5_2.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.1.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.111.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.3_9.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.5_17.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.5_2.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.AVL.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.ActivityOnEdge.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.AdjacencyList.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.BTree.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.C.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.C2_1.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.C2_2.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.C2_3.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.Chainforwardstar.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.CircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.Dijkstra.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.DoubleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.HelloWorld.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake 应用程序.Kruskal.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.Prim.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.SingleLinkList.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.adjacencyMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.binarySearchTree.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.binaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.blockSearch.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.circularQueue.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.dfs.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.floyed.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake 应用程序.graphBFS.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.graphDFS.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.heapSort.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.huffmanC2_2.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.huffmanC2_3.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.huffmanTree.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.insertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.kmp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.misson1.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.misson2.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.quickSort.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.secondOptimal.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.sequentialQueue.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.stack.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.staticSearch.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.threadedBinaryTree.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake 应用程序.vm.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.vm2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Npc/Desktop/codes/DA/C/educoderOJ&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C/C++ 文件.5_2.cpp.executor": "Run",
+    "CMake 应用程序.1.executor": "Run",
+    "CMake 应用程序.111.executor": "Run",
+    "CMake 应用程序.3_9.executor": "Run",
+    "CMake 应用程序.5_17.executor": "Run",
+    "CMake 应用程序.5_2.executor": "Run",
+    "CMake 应用程序.AVL.executor": "Run",
+    "CMake 应用程序.ActivityOnEdge.executor": "Run",
+    "CMake 应用程序.AdjacencyList.executor": "Run",
+    "CMake 应用程序.BTree.executor": "Run",
+    "CMake 应用程序.C.executor": "Run",
+    "CMake 应用程序.C2_1.executor": "Run",
+    "CMake 应用程序.C2_2.executor": "Run",
+    "CMake 应用程序.C2_3.executor": "Run",
+    "CMake 应用程序.Chainforwardstar.executor": "Run",
+    "CMake 应用程序.CircularLinkedList.executor": "Run",
+    "CMake 应用程序.Dijkstra.executor": "Run",
+    "CMake 应用程序.DoubleLinkedList.executor": "Run",
+    "CMake 应用程序.HelloWorld.executor": "Debug",
+    "CMake 应用程序.Kruskal.executor": "Run",
+    "CMake 应用程序.Prim.executor": "Run",
+    "CMake 应用程序.SingleLinkList.executor": "Run",
+    "CMake 应用程序.adjacencyMatrix.executor": "Run",
+    "CMake 应用程序.binarySearchTree.executor": "Run",
+    "CMake 应用程序.binaryTree.executor": "Run",
+    "CMake 应用程序.blockSearch.executor": "Run",
+    "CMake 应用程序.circularQueue.executor": "Run",
+    "CMake 应用程序.dfs.executor": "Run",
+    "CMake 应用程序.floyed.executor": "Debug",
+    "CMake 应用程序.graphBFS.executor": "Run",
+    "CMake 应用程序.graphDFS.executor": "Run",
+    "CMake 应用程序.heapSort.executor": "Run",
+    "CMake 应用程序.huffmanC2_2.executor": "Run",
+    "CMake 应用程序.huffmanC2_3.executor": "Run",
+    "CMake 应用程序.huffmanTree.executor": "Run",
+    "CMake 应用程序.insertionSort.executor": "Run",
+    "CMake 应用程序.kmp.executor": "Run",
+    "CMake 应用程序.mergeSort.executor": "Run",
+    "CMake 应用程序.misson1.executor": "Run",
+    "CMake 应用程序.misson2.executor": "Run",
+    "CMake 应用程序.quickSort.executor": "Run",
+    "CMake 应用程序.secondOptimal.executor": "Run",
+    "CMake 应用程序.sequentialQueue.executor": "Run",
+    "CMake 应用程序.shellSort.executor": "Run",
+    "CMake 应用程序.stack.executor": "Run",
+    "CMake 应用程序.staticSearch.executor": "Run",
+    "CMake 应用程序.threadedBinaryTree.executor": "Debug",
+    "CMake 应用程序.vm.executor": "Run",
+    "CMake 应用程序.vm2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Npc/Desktop/codes/DA/C/educoderOJ",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
@@ -195,7 +195,12 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.shellSort">
+  <component name="RunManager" selected="CMake 应用程序.mergeSort">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -406,6 +411,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mergeSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="mergeSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="mergeSort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="misson1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="misson1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="misson1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -484,6 +494,7 @@
       <item itemvalue="CMake 应用程序.Graph2" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
       <item itemvalue="CMake 应用程序.Kruskal" />
+      <item itemvalue="CMake 应用程序.mergeSort" />
       <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.adjacencyMatrix" />
@@ -586,7 +597,7 @@
       <workItem from="1717245486746" duration="1771000" />
       <workItem from="1717248755694" duration="1083000" />
       <workItem from="1717307023585" duration="45000" />
-      <workItem from="1717330429571" duration="2000" />
+      <workItem from="1717330429571" duration="1521000" />
     </task>
     <servers />
   </component>
