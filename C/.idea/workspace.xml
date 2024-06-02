@@ -57,6 +57,7 @@
       <config projectName="C" targetName="mergeSort" />
       <config projectName="C" targetName="kmp" />
       <config projectName="C" targetName="misson2" />
+      <config projectName="C" targetName="twoWayInsertionSort" />
       <config projectName="C" targetName="misson1" />
       <config projectName="C" targetName="Chainforwardstar" />
       <config projectName="C" targetName="shellSort" />
@@ -72,14 +73,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/mergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/listInsertionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/twoWayInsertionSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6cda835d2a61a13cb9cf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-01T13-33-04-0575.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f1a4420b4963b7358b82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-02T12-27-13-0036.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
@@ -168,6 +171,7 @@
     "CMake 应用程序.stack.executor": "Run",
     "CMake 应用程序.staticSearch.executor": "Run",
     "CMake 应用程序.threadedBinaryTree.executor": "Debug",
+    "CMake 应用程序.twoWayInsertionSort.executor": "Run",
     "CMake 应用程序.vm.executor": "Run",
     "CMake 应用程序.vm2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -195,7 +199,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.mergeSort">
+  <component name="RunManager" selected="CMake 应用程序.listInsertionSort">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -411,6 +415,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="listInsertionSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="listInsertionSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="listInsertionSort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mergeSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="mergeSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="mergeSort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -461,6 +470,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twoWayInsertionSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="twoWayInsertionSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="twoWayInsertionSort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="vm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="vm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="vm">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -494,6 +508,7 @@
       <item itemvalue="CMake 应用程序.Graph2" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
       <item itemvalue="CMake 应用程序.Kruskal" />
+      <item itemvalue="CMake 应用程序.listInsertionSort" />
       <item itemvalue="CMake 应用程序.mergeSort" />
       <item itemvalue="CMake 应用程序.Prim" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
@@ -525,6 +540,7 @@
       <item itemvalue="CMake 应用程序.stack" />
       <item itemvalue="CMake 应用程序.staticSearch" />
       <item itemvalue="CMake 应用程序.threadedBinaryTree" />
+      <item itemvalue="CMake 应用程序.twoWayInsertionSort" />
       <item itemvalue="CMake 应用程序.vm" />
     </list>
   </component>
@@ -597,7 +613,7 @@
       <workItem from="1717245486746" duration="1771000" />
       <workItem from="1717248755694" duration="1083000" />
       <workItem from="1717307023585" duration="45000" />
-      <workItem from="1717330429571" duration="1521000" />
+      <workItem from="1717330429571" duration="3787000" />
     </task>
     <servers />
   </component>

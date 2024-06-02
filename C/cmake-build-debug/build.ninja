@@ -1756,6 +1756,72 @@ build mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort
   TARGET_IMPLIB = libmergeSort.dll.a
   TARGET_PDB = mergeSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target twoWayInsertionSort
+
+
+#############################################
+# Order-only phony target for twoWayInsertionSort
+
+build cmake_object_order_depends_target_twoWayInsertionSort: phony || CMakeFiles/twoWayInsertionSort.dir
+
+build CMakeFiles/twoWayInsertionSort.dir/Sort/twoWayInsertionSort.cpp.obj: CXX_COMPILER__twoWayInsertionSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/twoWayInsertionSort.cpp || cmake_object_order_depends_target_twoWayInsertionSort
+  DEP_FILE = CMakeFiles\twoWayInsertionSort.dir\Sort\twoWayInsertionSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\twoWayInsertionSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\twoWayInsertionSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target twoWayInsertionSort
+
+
+#############################################
+# Link the executable twoWayInsertionSort.exe
+
+build twoWayInsertionSort.exe: CXX_EXECUTABLE_LINKER__twoWayInsertionSort_Debug CMakeFiles/twoWayInsertionSort.dir/Sort/twoWayInsertionSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\twoWayInsertionSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = twoWayInsertionSort.exe
+  TARGET_IMPLIB = libtwoWayInsertionSort.dll.a
+  TARGET_PDB = twoWayInsertionSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target listInsertionSort
+
+
+#############################################
+# Order-only phony target for listInsertionSort
+
+build cmake_object_order_depends_target_listInsertionSort: phony || CMakeFiles/listInsertionSort.dir
+
+build CMakeFiles/listInsertionSort.dir/Sort/listInsertionSort.cpp.obj: CXX_COMPILER__listInsertionSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/listInsertionSort.cpp || cmake_object_order_depends_target_listInsertionSort
+  DEP_FILE = CMakeFiles\listInsertionSort.dir\Sort\listInsertionSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\listInsertionSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\listInsertionSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listInsertionSort
+
+
+#############################################
+# Link the executable listInsertionSort.exe
+
+build listInsertionSort.exe: CXX_EXECUTABLE_LINKER__listInsertionSort_Debug CMakeFiles/listInsertionSort.dir/Sort/listInsertionSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listInsertionSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listInsertionSort.exe
+  TARGET_IMPLIB = liblistInsertionSort.dll.a
+  TARGET_PDB = listInsertionSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1864,6 +1930,8 @@ build insertionSort: phony insertionSort.exe
 
 build kmp: phony kmp.exe
 
+build listInsertionSort: phony listInsertionSort.exe
+
 build mergeSort: phony mergeSort.exe
 
 build misson1: phony misson1.exe
@@ -1884,6 +1952,8 @@ build staticSearch: phony staticSearch.exe
 
 build threadedBinaryTree: phony threadedBinaryTree.exe
 
+build twoWayInsertionSort: phony twoWayInsertionSort.exe
+
 build vm: phony vm.exe
 
 # =============================================================================
@@ -1894,7 +1964,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe
 
 # =============================================================================
 # Built-in targets

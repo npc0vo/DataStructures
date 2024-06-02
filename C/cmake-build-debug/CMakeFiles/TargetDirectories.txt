@@ -50,5 +50,7 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/binarySearchTree.di
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/heapSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/quickSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/mergeSort.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/twoWayInsertionSort.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/listInsertionSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
