@@ -68,7 +68,8 @@
 						50,
 						51,
 						52,
-						53
+						53,
+						54
 					]
 				}
 			],
@@ -136,7 +137,8 @@
 						50,
 						51,
 						52,
-						53
+						53,
+						54
 					]
 				}
 			],
@@ -504,6 +506,13 @@
 					"id" : "threadedBinaryTree::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-threadedBinaryTree-Debug-ba33c4b33dd84c6620be.json",
 					"name" : "threadedBinaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "treeInsertionSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-treeInsertionSort-Debug-b3b17d90ed65c3ac1a1d.json",
+					"name" : "treeInsertionSort",
 					"projectIndex" : 0
 				},
 				{
