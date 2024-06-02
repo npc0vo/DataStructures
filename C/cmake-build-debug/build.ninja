@@ -1855,6 +1855,105 @@ build treeInsertionSort.exe: CXX_EXECUTABLE_LINKER__treeInsertionSort_Debug CMak
   TARGET_IMPLIB = libtreeInsertionSort.dll.a
   TARGET_PDB = treeInsertionSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target RadixSort
+
+
+#############################################
+# Order-only phony target for RadixSort
+
+build cmake_object_order_depends_target_RadixSort: phony || CMakeFiles/RadixSort.dir
+
+build CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.obj: CXX_COMPILER__RadixSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/RadixSort.cpp || cmake_object_order_depends_target_RadixSort
+  DEP_FILE = CMakeFiles\RadixSort.dir\Sort\RadixSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RadixSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\RadixSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RadixSort
+
+
+#############################################
+# Link the executable RadixSort.exe
+
+build RadixSort.exe: CXX_EXECUTABLE_LINKER__RadixSort_Debug CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RadixSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RadixSort.exe
+  TARGET_IMPLIB = libRadixSort.dll.a
+  TARGET_PDB = RadixSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target countSort
+
+
+#############################################
+# Order-only phony target for countSort
+
+build cmake_object_order_depends_target_countSort: phony || CMakeFiles/countSort.dir
+
+build CMakeFiles/countSort.dir/Sort/countSort.cpp.obj: CXX_COMPILER__countSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/countSort.cpp || cmake_object_order_depends_target_countSort
+  DEP_FILE = CMakeFiles\countSort.dir\Sort\countSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\countSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\countSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target countSort
+
+
+#############################################
+# Link the executable countSort.exe
+
+build countSort.exe: CXX_EXECUTABLE_LINKER__countSort_Debug CMakeFiles/countSort.dir/Sort/countSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\countSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = countSort.exe
+  TARGET_IMPLIB = libcountSort.dll.a
+  TARGET_PDB = countSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bucketSort
+
+
+#############################################
+# Order-only phony target for bucketSort
+
+build cmake_object_order_depends_target_bucketSort: phony || CMakeFiles/bucketSort.dir
+
+build CMakeFiles/bucketSort.dir/Sort/bucketSort.cpp.obj: CXX_COMPILER__bucketSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/bucketSort.cpp || cmake_object_order_depends_target_bucketSort
+  DEP_FILE = CMakeFiles\bucketSort.dir\Sort\bucketSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bucketSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\bucketSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bucketSort
+
+
+#############################################
+# Link the executable bucketSort.exe
+
+build bucketSort.exe: CXX_EXECUTABLE_LINKER__bucketSort_Debug CMakeFiles/bucketSort.dir/Sort/bucketSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bucketSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bucketSort.exe
+  TARGET_IMPLIB = libbucketSort.dll.a
+  TARGET_PDB = bucketSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1923,6 +2022,8 @@ build Kruskal: phony Kruskal.exe
 
 build Prim: phony Prim.exe
 
+build RadixSort: phony RadixSort.exe
+
 build SingleLinkList: phony SingleLinkList.exe
 
 build adjacencyMatrix: phony adjacencyMatrix.exe
@@ -1933,7 +2034,11 @@ build binaryTree: phony binaryTree.exe
 
 build blockSearch: phony blockSearch.exe
 
+build bucketSort: phony bucketSort.exe
+
 build circularQueue: phony circularQueue.exe
+
+build countSort: phony countSort.exe
 
 build dfs: phony dfs.exe
 
@@ -1999,7 +2104,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe RadixSort.exe countSort.exe bucketSort.exe
 
 # =============================================================================
 # Built-in targets

@@ -53,5 +53,8 @@ C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/mergeSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/twoWayInsertionSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/listInsertionSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/treeInsertionSort.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/RadixSort.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/countSort.dir
+C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/bucketSort.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
