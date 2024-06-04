@@ -1954,6 +1954,72 @@ build bucketSort.exe: CXX_EXECUTABLE_LINKER__bucketSort_Debug CMakeFiles/bucketS
   TARGET_IMPLIB = libbucketSort.dll.a
   TARGET_PDB = bucketSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target linkRadixSort
+
+
+#############################################
+# Order-only phony target for linkRadixSort
+
+build cmake_object_order_depends_target_linkRadixSort: phony || CMakeFiles/linkRadixSort.dir
+
+build CMakeFiles/linkRadixSort.dir/Sort/linkRadixSort.cpp.obj: CXX_COMPILER__linkRadixSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/linkRadixSort.cpp || cmake_object_order_depends_target_linkRadixSort
+  DEP_FILE = CMakeFiles\linkRadixSort.dir\Sort\linkRadixSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkRadixSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkRadixSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkRadixSort
+
+
+#############################################
+# Link the executable linkRadixSort.exe
+
+build linkRadixSort.exe: CXX_EXECUTABLE_LINKER__linkRadixSort_Debug CMakeFiles/linkRadixSort.dir/Sort/linkRadixSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkRadixSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkRadixSort.exe
+  TARGET_IMPLIB = liblinkRadixSort.dll.a
+  TARGET_PDB = linkRadixSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target outSort
+
+
+#############################################
+# Order-only phony target for outSort
+
+build cmake_object_order_depends_target_outSort: phony || CMakeFiles/outSort.dir
+
+build CMakeFiles/outSort.dir/Sort/outSort.cpp.obj: CXX_COMPILER__outSort_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Sort/outSort.cpp || cmake_object_order_depends_target_outSort
+  DEP_FILE = CMakeFiles\outSort.dir\Sort\outSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\outSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\outSort.dir\Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target outSort
+
+
+#############################################
+# Link the executable outSort.exe
+
+build outSort.exe: CXX_EXECUTABLE_LINKER__outSort_Debug CMakeFiles/outSort.dir/Sort/outSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\outSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = outSort.exe
+  TARGET_IMPLIB = liboutSort.dll.a
+  TARGET_PDB = outSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2068,6 +2134,8 @@ build insertionSort: phony insertionSort.exe
 
 build kmp: phony kmp.exe
 
+build linkRadixSort: phony linkRadixSort.exe
+
 build listInsertionSort: phony listInsertionSort.exe
 
 build mergeSort: phony mergeSort.exe
@@ -2075,6 +2143,8 @@ build mergeSort: phony mergeSort.exe
 build misson1: phony misson1.exe
 
 build misson2: phony misson2.exe
+
+build outSort: phony outSort.exe
 
 build quickSort: phony quickSort.exe
 
@@ -2104,7 +2174,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe RadixSort.exe countSort.exe bucketSort.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe RadixSort.exe countSort.exe bucketSort.exe linkRadixSort.exe outSort.exe
 
 # =============================================================================
 # Built-in targets
