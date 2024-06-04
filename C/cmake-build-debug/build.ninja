@@ -2020,6 +2020,39 @@ build outSort.exe: CXX_EXECUTABLE_LINKER__outSort_Debug CMakeFiles/outSort.dir/S
   TARGET_IMPLIB = liboutSort.dll.a
   TARGET_PDB = outSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target threadTree
+
+
+#############################################
+# Order-only phony target for threadTree
+
+build cmake_object_order_depends_target_threadTree: phony || CMakeFiles/threadTree.dir
+
+build CMakeFiles/threadTree.dir/Tree/threadTree.cpp.obj: CXX_COMPILER__threadTree_unscanned_Debug C$:/Users/Npc/Desktop/codes/DA/C/Tree/threadTree.cpp || cmake_object_order_depends_target_threadTree
+  DEP_FILE = CMakeFiles\threadTree.dir\Tree\threadTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\threadTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\threadTree.dir\Tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target threadTree
+
+
+#############################################
+# Link the executable threadTree.exe
+
+build threadTree.exe: CXX_EXECUTABLE_LINKER__threadTree_Debug CMakeFiles/threadTree.dir/Tree/threadTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\threadTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = threadTree.exe
+  TARGET_IMPLIB = libthreadTree.dll.a
+  TARGET_PDB = threadTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2158,6 +2191,8 @@ build stack: phony stack.exe
 
 build staticSearch: phony staticSearch.exe
 
+build threadTree: phony threadTree.exe
+
 build threadedBinaryTree: phony threadedBinaryTree.exe
 
 build treeInsertionSort: phony treeInsertionSort.exe
@@ -2174,7 +2209,7 @@ build vm: phony vm.exe
 #############################################
 # Folder: C:/Users/Npc/Desktop/codes/DA/C/cmake-build-debug
 
-build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe RadixSort.exe countSort.exe bucketSort.exe linkRadixSort.exe outSort.exe
+build all: phony 5_17.exe 3_9.exe 5_2.exe C1_1.exe 3_10.exe C1_2.exe C1_3.exe C2_1.exe HelloWorld.exe SingleLinkList.exe DoubleLinkedList.exe CircularLinkedList.exe stack.exe sequentialQueue.exe circularQueue.exe kmp.exe vm.exe binaryTree.exe huffman1.exe huffman2.exe huffman3.exe dfs.exe huffmanTree.exe huffmanC2_2.exe huffmanC2_3.exe Graph1.exe Graph2.exe adjacencyMatrix.exe AdjacencyList.exe Chainforwardstar.exe graphDFS.exe graphBFS.exe Prim.exe Kruskal.exe Dijkstra.exe misson1.exe misson2.exe floyed.exe ActivityOnEdge.exe threadedBinaryTree.exe AVL.exe BTree.exe hashTable.exe staticSearch.exe insertionSort.exe shellSort.exe secondOptimal.exe blockSearch.exe binarySearchTree.exe heapSort.exe quickSort.exe mergeSort.exe twoWayInsertionSort.exe listInsertionSort.exe treeInsertionSort.exe RadixSort.exe countSort.exe bucketSort.exe linkRadixSort.exe outSort.exe threadTree.exe
 
 # =============================================================================
 # Built-in targets

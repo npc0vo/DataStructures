@@ -26,11 +26,13 @@
       <config projectName="C" targetName="DoubleLinkedList" />
       <config projectName="C" targetName="Dijkstra" />
       <config projectName="C" targetName="hashTable" />
+      <config projectName="C" targetName="outSort" />
       <config projectName="C" targetName="stack" />
       <config projectName="C" targetName="huffmanTree" />
       <config projectName="C" targetName="HelloWorld" />
       <config projectName="C" targetName="circularQueue" />
       <config projectName="C" targetName="linkRadixSort" />
+      <config projectName="C" targetName="threadTree" />
       <config projectName="C" targetName="huffmanC2_2" />
       <config projectName="C" targetName="huffmanC2_3" />
       <config projectName="C" targetName="C2_1" />
@@ -79,12 +81,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc2ec9-7d72-4099-9ce0-b59a65ec9514" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/linkRadixSort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/outSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2442249aee11da794aaa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-02T15-19-38-0530.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3198ca988df882955efc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-04T03-08-32-0861.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -174,13 +174,15 @@
     &quot;CMake 应用程序.mergeSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.misson1.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.misson2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.outSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.quickSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.secondOptimal.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.sequentialQueue.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.shellSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.stack.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.staticSearch.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 应用程序.threadedBinaryTree.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake 应用程序.threadTree.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.threadedBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.twoWayInsertionSort.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.vm.executor&quot;: &quot;Run&quot;,
     &quot;CMake 应用程序.vm2.executor&quot;: &quot;Run&quot;,
@@ -209,12 +211,7 @@
       <recent name="C:\Users\Npc\Desktop\codes\DA\C\educoderOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.outSort">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake 应用程序.threadTree">
     <configuration name="3_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="3_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="3_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -500,6 +497,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="threadTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="threadTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="threadTree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="threadedBinaryTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="threadedBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="threadedBinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -527,7 +529,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ 文件.5_2.cpp" />
       <item itemvalue="CMake 应用程序.3_10" />
       <item itemvalue="CMake 应用程序.3_9" />
       <item itemvalue="CMake 应用程序.5_17" />
@@ -536,7 +537,6 @@
       <item itemvalue="CMake 应用程序.ActivityOnEdge" />
       <item itemvalue="CMake 应用程序.AdjacencyList" />
       <item itemvalue="CMake 应用程序.BTree" />
-      <item itemvalue="CMake 应用程序.bucketSort" />
       <item itemvalue="CMake 应用程序.C1_1" />
       <item itemvalue="CMake 应用程序.C1_2" />
       <item itemvalue="CMake 应用程序.C1_3" />
@@ -549,15 +549,14 @@
       <item itemvalue="CMake 应用程序.Graph2" />
       <item itemvalue="CMake 应用程序.HelloWorld" />
       <item itemvalue="CMake 应用程序.Kruskal" />
-      <item itemvalue="CMake 应用程序.linkRadixSort" />
-      <item itemvalue="CMake 应用程序.listInsertionSort" />
-      <item itemvalue="CMake 应用程序.mergeSort" />
       <item itemvalue="CMake 应用程序.Prim" />
+      <item itemvalue="CMake 应用程序.RadixSort" />
       <item itemvalue="CMake 应用程序.SingleLinkList" />
       <item itemvalue="CMake 应用程序.adjacencyMatrix" />
       <item itemvalue="CMake 应用程序.binarySearchTree" />
       <item itemvalue="CMake 应用程序.binaryTree" />
       <item itemvalue="CMake 应用程序.blockSearch" />
+      <item itemvalue="CMake 应用程序.bucketSort" />
       <item itemvalue="CMake 应用程序.circularQueue" />
       <item itemvalue="CMake 应用程序.countSort" />
       <item itemvalue="CMake 应用程序.dfs" />
@@ -574,20 +573,24 @@
       <item itemvalue="CMake 应用程序.huffmanTree" />
       <item itemvalue="CMake 应用程序.insertionSort" />
       <item itemvalue="CMake 应用程序.kmp" />
+      <item itemvalue="CMake 应用程序.linkRadixSort" />
+      <item itemvalue="CMake 应用程序.listInsertionSort" />
+      <item itemvalue="CMake 应用程序.mergeSort" />
       <item itemvalue="CMake 应用程序.misson1" />
       <item itemvalue="CMake 应用程序.misson2" />
       <item itemvalue="CMake 应用程序.outSort" />
       <item itemvalue="CMake 应用程序.quickSort" />
-      <item itemvalue="CMake 应用程序.RadixSort" />
       <item itemvalue="CMake 应用程序.secondOptimal" />
       <item itemvalue="CMake 应用程序.sequentialQueue" />
       <item itemvalue="CMake 应用程序.shellSort" />
       <item itemvalue="CMake 应用程序.stack" />
       <item itemvalue="CMake 应用程序.staticSearch" />
+      <item itemvalue="CMake 应用程序.threadTree" />
       <item itemvalue="CMake 应用程序.threadedBinaryTree" />
       <item itemvalue="CMake 应用程序.treeInsertionSort" />
       <item itemvalue="CMake 应用程序.twoWayInsertionSort" />
       <item itemvalue="CMake 应用程序.vm" />
+      <item itemvalue="C/C++ 文件.5_2.cpp" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -661,7 +664,9 @@
       <workItem from="1717307023585" duration="45000" />
       <workItem from="1717330429571" duration="4062000" />
       <workItem from="1717339013388" duration="4270000" />
-      <workItem from="1717470475889" duration="37000" />
+      <workItem from="1717470475889" duration="3740000" />
+      <workItem from="1717510174254" duration="635000" />
+      <workItem from="1717513130080" duration="3000" />
     </task>
     <servers />
   </component>
