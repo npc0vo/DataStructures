@@ -192,6 +192,15 @@ private:
         }
     }
 
+    void preorder(TreeNode*root)
+    {
+        if(root)
+        {
+            cout<<root->val<<" ";
+            preorder(root->left);
+            preorder(root->right);
+        }
+    }
 public:
     // 构造函数，初始化根节点为空
     AVLTree() : root(nullptr) {}
@@ -216,6 +225,11 @@ public:
         inorder(root);
         cout << endl;
     }
+
+    void preorder(){
+        preorder(root);
+        cout<<endl;
+    }
 };
 
 // 测试函数
@@ -223,18 +237,18 @@ int main() {
     AVLTree avl;
 
     // 插入节点
-    avl.insert(50);
-    avl.insert(30);
-    avl.insert(20);
-    avl.insert(40);
-    avl.insert(70);
-    avl.insert(60);
-    avl.insert(80);
+    avl.insert(63);
+    avl.insert(72);
+    avl.insert(88);
+    avl.insert(68);
+    avl.insert(66);
+    avl.insert(38);
+    avl.insert(43);
 
     // 打印中序遍历结果
     cout << "Inorder traversal of the given tree: ";
     avl.inorder();
-
+    avl.preorder();
     // 删除节点并打印中序遍历结果
     cout << "\nDelete 20\n";
     avl.deleteNode(20);
